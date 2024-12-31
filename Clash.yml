@@ -5,423 +5,423 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: AU_14, server: pumped-stingray.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, skip-cert-verify: true, udp: true}
-  - {name: AU_85, server: complete-leopard.boa152.lol, port: 443, type: trojan, password: 3747000125839646720, skip-cert-verify: true, udp: true}
-  - {name: CA_19, server: 167.99.179.27, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: CA_95, server: 134.195.198.61, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: novia.makeup, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: CZ_35, server: correct-redbird.boa152.lol, port: 443, type: trojan, password: 3747000125839646720, skip-cert-verify: true, udp: true}
-  - {name: DE_25, server: pleased-slug.boa152.lol, port: 443, type: trojan, password: 3738778223597854720, skip-cert-verify: true, udp: true}
-  - {name: DE_51, server: 57.129.25.25, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: f.khilei.com, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: DE_59, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: DE_71, server: profound-elk.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, skip-cert-verify: true, udp: true}
-  - {name: FR_24, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: az05.beyondy.cfd, network: ws, ws-opts: {path: /link, headers: {Host: az05.beyondy.cfd}}, udp: true}
-  - {name: FR_26, server: exciting-mallard.boa152.lol, port: 443, type: trojan, password: 3747000125839646720, skip-cert-verify: true, udp: true}
-  - {name: FR_73, server: beyonddsz.cfd, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: none, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddsz.cfd}}, udp: true}
-  - {name: GB_53, server: 149.7.16.73, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: janett.click, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: IE_60, server: deciding-chamois.boa152.lol, port: 443, type: trojan, password: 3738778223597854720, skip-cert-verify: true, udp: true}
-  - {name: NL_30, server: 150.241.102.95, port: 10799, type: vless, uuid: 339c300a-9edd-4474-9386-efd35c5c6ca1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: yw374OPQfpF0KpnFYX2zYnO8-NC7RkgGbbiMzmZYvDU, short-id: "330602658f0ade" }, servername: google.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: NL_55, server: 95.164.86.59, port: 2198, type: vless, uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6, tls: false, tfo: false, skip-cert-verify: true, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: NL_7, server: 95.164.87.30, port: 2198, type: vless, uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6, tls: false, tfo: false, skip-cert-verify: true, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: NL_88, server: 150.241.102.95, port: 10799, type: vless, uuid: 339c300a-9edd-4474-9386-efd35c5c6ca1, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: yw374OPQfpF0KpnFYX2zYnO8-NC7RkgGbbiMzmZYvDU, short-id: "330602658f0ade" }, servername: google.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: NP_29, server: settled-seal.treefrog761.one, port: 443, type: trojan, password: 3747000125839646720, skip-cert-verify: true, udp: true}
-  - {name: RU_82, server: 194.87.69.52, port: 53274, type: vmess, uuid: c1f70895-8dd7-4f49-886c-e9242c1291b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: SE_84, server: xraypsiphon.sassanidempire.com, port: 443, type: vless, uuid: aaf8a6c9-aaad-4f85-dd01-9ccd4ca554f9, tls: true, tfo: false, skip-cert-verify: true, client-fingerprint: chrome, network: ws, ws-opts: {path: /wspath, headers: {Host: xraypsiphon.sassanidempire.com}}, udp: true}
-  - {name: SG_58, server: fair-wahoo.treefrog761.one, port: 443, type: trojan, password: 3747000125839646720, skip-cert-verify: true, udp: true}
-  - {name: SG_75, server: 27.50.49.234, port: 8443, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
-  - {name: UN_0, server: bgp.abyssvpn.com, port: 31123, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
-  - {name: UN_1, server: kaikaixinxin-ca.legeth.xyz, port: 61098, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_10, server: cmcc.abyssvpn.com, port: 31120, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
-  - {name: UN_11, server: kaikaixinxin-ca.legeth.xyz, port: 61625, type: hysteria2, password: b5a6c71c-b0e2-49f2-a20f-d3d1fceba8a1, auth: b5a6c71c-b0e2-49f2-a20f-d3d1fceba8a1, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_12, server: kaikaixinxin-ca.legeth.xyz, port: 61878, type: hysteria2, password: cb65af30-0f81-403e-99d6-582d9cc6c91e, auth: cb65af30-0f81-403e-99d6-582d9cc6c91e, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_13, server: kaikaixinxin-us.legeth.xyz, port: 61993, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_15, server: cmcc.abyssvpn.com, port: 31107, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_16, server: kaikaixinxin-us.legeth.xyz, port: 61624, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_17, server: cmcc.abyssvpn.com, port: 31159, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_18, server: bgp.abyssvpn.com, port: 31153, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
-  - {name: UN_2, server: cmcc.abyssvpn.com, port: 31112, type: hysteria2, password: 8abb87c5-12de-441d-9fe3-c0b939d0a7f1, auth: 8abb87c5-12de-441d-9fe3-c0b939d0a7f1, skip-cert-verify: true, udp: true}
-  - {name: UN_20, server: bgp.abyssvpn.com, port: 31152, type: hysteria2, password: 47d51170-9f1b-4459-ac27-a5c349293736, auth: 47d51170-9f1b-4459-ac27-a5c349293736, skip-cert-verify: true, udp: true}
-  - {name: UN_21, server: hk.vvcloud.us.kg, port: 20935, type: hysteria2, password: e07e6bb4-1a55-4e5f-92c5-25585c9715b6, auth: e07e6bb4-1a55-4e5f-92c5-25585c9715b6, sni: hk.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_22, server: 104.20.19.168, port: 443, type: vless, uuid: 3763d8b0-55b8-4260-80fa-795bd9e9523a, tls: true, tfo: false, skip-cert-verify: true, servername: v2raylandd.ragokim434.workers.DEv, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: v2raylandd.ragokim434.workers.DEv}}, udp: true}
-  - {name: UN_23, server: cmcc.abyssvpn.com, port: 31113, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_27, server: kaikaixinxin-ca.legeth.xyz, port: 61660, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_28, server: cucc.abyssvpn.com, port: 31157, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_3, server: hk.vvcloud.us.kg, port: 20989, type: hysteria2, password: 432be2d3-c065-4e96-bf09-b3e6734340a1, auth: 432be2d3-c065-4e96-bf09-b3e6734340a1, sni: hk.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_31, server: kaikaixinxin-ca.legeth.xyz, port: 61439, type: hysteria2, password: 04457c1f-252f-4389-acbe-f4854064c155, auth: 04457c1f-252f-4389-acbe-f4854064c155, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_32, server: 104.26.13.31, port: 2096, type: vless, uuid: 67caf0a6-2cab-4f2e-81f5-1664e4813709, tls: true, tfo: false, skip-cert-verify: true, servername: server18.aibox.tv, client-fingerprint: chrome, network: ws, ws-opts: {path: /TG-AiLuMao/, headers: {Host: server18.aibox.tv}}, udp: true}
-  - {name: UN_33, server: bgp.abyssvpn.com, port: 31126, type: hysteria2, password: c1d681fe-4128-4bfe-85f5-5814e5ba9a81, auth: c1d681fe-4128-4bfe-85f5-5814e5ba9a81, skip-cert-verify: true, udp: true}
-  - {name: UN_34, server: cucc.abyssvpn.com, port: 31128, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_36, server: bgp.abyssvpn.com, port: 31151, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
-  - {name: UN_37, server: cucc.abyssvpn.com, port: 31125, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
-  - {name: UN_39, server: cmcc.abyssvpn.com, port: 31152, type: hysteria2, password: c1d681fe-4128-4bfe-85f5-5814e5ba9a81, auth: c1d681fe-4128-4bfe-85f5-5814e5ba9a81, skip-cert-verify: true, udp: true}
-  - {name: UN_4, server: 195.58.49.173, port: 28153, type: hysteria2, password: 4c9d53ba-e146-4da8-8129-0411388fecb2, auth: 4c9d53ba-e146-4da8-8129-0411388fecb2, skip-cert-verify: true, obfs: salamander, obfs-password: MzliZDM5MDFhYmFlNTAyMA==, udp: true}
-  - {name: UN_40, server: bgp.abyssvpn.com, port: 31154, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
-  - {name: UN_41, server: bgp.abyssvpn.com, port: 31121, type: hysteria2, password: 107bc18d-797d-4997-8faf-f6d354836774, auth: 107bc18d-797d-4997-8faf-f6d354836774, skip-cert-verify: true, udp: true}
-  - {name: UN_42, server: jp.vvcloud.us.kg, port: 20935, type: hysteria2, password: e07e6bb4-1a55-4e5f-92c5-25585c9715b6, auth: e07e6bb4-1a55-4e5f-92c5-25585c9715b6, sni: jp.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_43, server: japan.com, port: 443, type: trojan, password: bpb-trojan, sni: zamim340.ggff.net, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: zamim340.ggff.net}}, udp: true}
-  - {name: UN_44, server: us.vvcloud.us.kg, port: 20911, type: hysteria2, password: 6ae7cc14-81f8-45d0-92d1-8995de83b702, auth: 6ae7cc14-81f8-45d0-92d1-8995de83b702, sni: us.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_45, server: hk.vvcloud.us.kg, port: 20916, type: hysteria2, password: 432be2d3-c065-4e96-bf09-b3e6734340a1, auth: 432be2d3-c065-4e96-bf09-b3e6734340a1, sni: hk.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_46, server: kaikaixinxin-ca.legeth.xyz, port: 61215, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_47, server: cucc.abyssvpn.com, port: 31152, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_49, server: us.vvcloud.us.kg, port: 20926, type: hysteria2, password: 61acab04-8669-46a5-8235-e0c4836b7cc4, auth: 61acab04-8669-46a5-8235-e0c4836b7cc4, sni: us.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_50, server: kaikaixinxin-us.legeth.xyz, port: 61509, type: hysteria2, password: b5a6c71c-b0e2-49f2-a20f-d3d1fceba8a1, auth: b5a6c71c-b0e2-49f2-a20f-d3d1fceba8a1, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_54, server: bgp.abyssvpn.com, port: 31151, type: hysteria2, password: 46252b3d-bca5-4754-ac40-fa0acbbd46c9, auth: 46252b3d-bca5-4754-ac40-fa0acbbd46c9, skip-cert-verify: true, udp: true}
-  - {name: UN_56, server: kaikaixinxin-us.legeth.xyz, port: 61287, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_57, server: us.vvcloud.us.kg, port: 20945, type: hysteria2, password: 6ae7cc14-81f8-45d0-92d1-8995de83b702, auth: 6ae7cc14-81f8-45d0-92d1-8995de83b702, sni: us.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_6, server: hk.vvcloud.us.kg, port: 20905, type: hysteria2, password: 6ae7cc14-81f8-45d0-92d1-8995de83b702, auth: 6ae7cc14-81f8-45d0-92d1-8995de83b702, sni: hk.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_61, server: kaikaixinxin-us.legeth.xyz, port: 61863, type: hysteria2, password: 1b0f3f67-fd27-42b4-bff6-a54dab6a99e5, auth: 1b0f3f67-fd27-42b4-bff6-a54dab6a99e5, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_62, server: cmcc.abyssvpn.com, port: 31103, type: hysteria2, password: d1f137aa-5539-4f9c-bf3c-ff7edab0f0f5, auth: d1f137aa-5539-4f9c-bf3c-ff7edab0f0f5, skip-cert-verify: true, udp: true}
-  - {name: UN_63, server: us.vvcloud.us.kg, port: 20948, type: hysteria2, password: 6ae7cc14-81f8-45d0-92d1-8995de83b702, auth: 6ae7cc14-81f8-45d0-92d1-8995de83b702, sni: us.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_65, server: bgp.abyssvpn.com, port: 31121, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
-  - {name: UN_66, server: kaikaixinxin-us.legeth.xyz, port: 61264, type: hysteria2, password: 1b0f3f67-fd27-42b4-bff6-a54dab6a99e5, auth: 1b0f3f67-fd27-42b4-bff6-a54dab6a99e5, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_68, server: kaikaixinxin-us.legeth.xyz, port: 61212, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_69, server: us.vvcloud.us.kg, port: 20998, type: hysteria2, password: 432be2d3-c065-4e96-bf09-b3e6734340a1, auth: 432be2d3-c065-4e96-bf09-b3e6734340a1, sni: us.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_70, server: bgp.abyssvpn.com, port: 31129, type: hysteria2, password: c1d681fe-4128-4bfe-85f5-5814e5ba9a81, auth: c1d681fe-4128-4bfe-85f5-5814e5ba9a81, skip-cert-verify: true, udp: true}
-  - {name: UN_72, server: cmcc.abyssvpn.com, port: 31110, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
-  - {name: UN_74, server: cucc.abyssvpn.com, port: 31112, type: hysteria2, password: 524f7933-b366-4b28-ae08-e42bb71fd4ec, auth: 524f7933-b366-4b28-ae08-e42bb71fd4ec, skip-cert-verify: true, udp: true}
-  - {name: UN_77, server: 104.21.12.158, port: 443, type: vless, uuid: acff92c5-701c-41e9-b905-c1e18fdd6b77, tls: true, tfo: false, skip-cert-verify: true, servername: 628b90e7-BLaCk-TrUtH-5368bb.mOSimOsTAfA5544.worKERS.DEV, client-fingerprint: chrome, network: ws, ws-opts: {path: "/-- @MOSIV2-- |,|-- @MOSIV2-- |,|-- @MOSIV2-- |,|-- @MOSIV2-- |,|-- @MOSIV2-- |,|-- @MOSIV2-- |,|-- @MOSIV2-- |,|-- @MOSIV2-- |?ed=443", headers: {Host: 628b90e7-BLaCk-TrUtH-5368bb.mOSimOsTAfA5544.worKERS.DEV}}, udp: true}
-  - {name: UN_78, server: 195.58.49.173, port: 28153, type: hysteria2, password: a1276fb6-308c-45ef-a1e1-ab735f8a60ab, auth: a1276fb6-308c-45ef-a1e1-ab735f8a60ab, skip-cert-verify: true, obfs: salamander, obfs-password: MzliZDM5MDFhYmFlNTAyMA==, udp: true}
-  - {name: UN_79, server: bgp.abyssvpn.com, port: 31151, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
-  - {name: UN_8, server: jp.1010520.xyz, port: 1001, type: hysteria2, password: f5136746-de79-46d0-b3be-d15d9992fa07, auth: f5136746-de79-46d0-b3be-d15d9992fa07, sni: jp.1010520.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_80, server: cmcc.abyssvpn.com, port: 31102, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
-  - {name: UN_83, server: cucc.abyssvpn.com, port: 31107, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_86, server: hk.vvcloud.us.kg, port: 20994, type: hysteria2, password: 432be2d3-c065-4e96-bf09-b3e6734340a1, auth: 432be2d3-c065-4e96-bf09-b3e6734340a1, sni: hk.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_87, server: cucc.abyssvpn.com, port: 31154, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_89, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: f37bd686-1e18-48af-ac28-38a77c7ceadf, auth: f37bd686-1e18-48af-ac28-38a77c7ceadf, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: UN_90, server: visa.cn, port: 2095, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, skip-cert-verify: true, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: fuckingcloudflare.20241224.workers.dev}}, udp: true}
-  - {name: UN_91, server: kaikaixinxin-us.legeth.xyz, port: 61635, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_92, server: us.1010520.xyz, port: 1001, type: hysteria2, password: f5136746-de79-46d0-b3be-d15d9992fa07, auth: f5136746-de79-46d0-b3be-d15d9992fa07, sni: us.1010520.xyz, skip-cert-verify: true, udp: true}
-  - {name: UN_93, server: bgp.abyssvpn.com, port: 31123, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_94, server: cucc.abyssvpn.com, port: 31157, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
-  - {name: UN_96, server: cmcc.abyssvpn.com, port: 31154, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
-  - {name: UN_97, server: us.vvcloud.us.kg, port: 20955, type: hysteria2, password: e07e6bb4-1a55-4e5f-92c5-25585c9715b6, auth: e07e6bb4-1a55-4e5f-92c5-25585c9715b6, sni: us.vvcloud.us.kg, skip-cert-verify: true, udp: true}
-  - {name: UN_98, server: 198.41.219.49, port: 443, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: aa.txtxt.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: aa.txtxt.us.kg}}, udp: true}
-  - {name: UN_99, server: tw3.akebi.cc, port: 2015, type: hysteria2, password: 338b9800-fb4d-4934-8425-388f6d4342f5, auth: 338b9800-fb4d-4934-8425-388f6d4342f5, sni: jp01.akebi.cc, skip-cert-verify: true, udp: true}
-  - {name: US_38, server: 166.88.182.77, port: 53274, type: vmess, uuid: 4122d6d2-9ece-4eb0-b178-85c834af616d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: US_48, server: 38.91.107.36, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: google.com, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: US_5, server: 103.116.7.133, port: 2083, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ts.onjim.us.kg}}, udp: true}
-  - {name: US_52, server: 89.187.181.179, port: 43118, type: trojan, password: ypDt8RkT7J, sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc, skip-cert-verify: true, udp: true}
-  - {name: US_64, server: 103.116.7.220, port: 2096, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
-  - {name: US_67, server: 147.135.1.195, port: 443, type: vless, uuid: ea286109-d20f-415e-849e-4af20ab04b65, tls: true, tfo: false, skip-cert-verify: true, servername: 147135001195.sec22org.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: US_76, server: 154.17.21.134, port: 18446, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
-  - {name: US_81, server: 154.17.21.134, port: 18446, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
-  - {name: US_9, server: 91.149.239.122, port: 443, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: AE_6, server: 212.192.13.187, port: 53274, type: vmess, uuid: fbb52678-05c5-4790-ab01-0145ed8cc071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: AE_7, server: 212.192.13.187, port: 53274, type: vmess, uuid: dff36748-9a7f-4ee3-a043-28ba29bb6ea2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CA_19, server: 140.238.158.238, port: 443, type: vless, uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9, tls: true, tfo: false, skip-cert-verify: true, servername: dsa.bgm2024.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dsa.bgm2024.us.kg}}, udp: true}
+  - {name: CA_26, server: 15.235.83.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: CA_63, server: 104.234.239.235, port: 2087, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: CZ_36, server: helping-katydid.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, skip-cert-verify: true, udp: true}
+  - {name: DE_98, server: 57.129.24.124, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: FR_28, server: 51.77.20.132, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: a.baradiha.com, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: FR_54, server: yournextcareerstep.online, port: 443, type: trojan, password: 984e400bf5d541b7b0815913fe0c432a, skip-cert-verify: true, udp: true}
+  - {name: GB_17, server: 172.99.190.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: GB_40, server: 172.99.190.50, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
+  - {name: IN_99, server: 141.148.203.6, port: 443, type: vless, uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9, tls: true, tfo: false, skip-cert-verify: true, servername: dsa.bgm2024.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dsa.bgm2024.us.kg}}, udp: true}
+  - {name: IR_41, server: 62.60.220.114, port: 2097, type: vless, uuid: b4c6c286-adae-417a-8623-e9eb2652a539, tls: false, tfo: false, skip-cert-verify: true, client-fingerprint: chrome, network: http, http-opts: {method: GET, path: [/], headers: {Host: [soft98.ir]}}, udp: true}
+  - {name: JP_38, server: capable-eel.treefrog761.one, port: 443, type: trojan, password: 3747000125839646720, skip-cert-verify: true, udp: true}
+  - {name: JP_65, server: crucial-satyr.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, skip-cert-verify: true, udp: true}
+  - {name: JP_85, server: capable-eel.treefrog761.one, port: 443, type: trojan, password: 3723507166611775488, skip-cert-verify: true, udp: true}
+  - {name: KR_56, server: 13.124.1.64, port: 443, type: trojan, password: 3723507166611775488, sni: fluent-bat.treefrog761.one, skip-cert-verify: true, udp: true}
+  - {name: MD_76, server: 45.142.212.154, port: 443, type: vless, uuid: 79683a15-ebb2-4881-858e-a50e9553a371, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: XsYCCmBu2xaOyGvjxzwjNmsqgsziY2vJ7N3JfQBDVXs, short-id: "e4ebe3ba" }, servername: dl.google.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: NL_50, server: 185.236.233.136, port: 2198, type: vless, uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6, tls: false, tfo: false, skip-cert-verify: true, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: NL_53, server: 95.164.17.106, port: 2198, type: vless, uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6, tls: false, tfo: false, skip-cert-verify: true, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: PL_0, server: 185.144.245.62, port: 18556, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: SG_21, server: premium-gull.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, skip-cert-verify: true, udp: true}
+  - {name: SG_31, server: 27.50.49.209, port: 2087, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: SG_58, server: 27.50.49.224, port: 8443, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: UN_1, server: cmcc.abyssvpn.com, port: 31116, type: hysteria2, password: d1f137aa-5539-4f9c-bf3c-ff7edab0f0f5, auth: d1f137aa-5539-4f9c-bf3c-ff7edab0f0f5, skip-cert-verify: true, udp: true}
+  - {name: UN_12, server: jp.vvcloud.us.kg, port: 20961, type: hysteria2, password: 432be2d3-c065-4e96-bf09-b3e6734340a1, auth: 432be2d3-c065-4e96-bf09-b3e6734340a1, sni: jp.vvcloud.us.kg, skip-cert-verify: true, udp: true}
+  - {name: UN_13, server: cmcc.abyssvpn.com, port: 31127, type: hysteria2, password: d1f137aa-5539-4f9c-bf3c-ff7edab0f0f5, auth: d1f137aa-5539-4f9c-bf3c-ff7edab0f0f5, skip-cert-verify: true, udp: true}
+  - {name: UN_14, server: kaikaixinxin-us.legeth.xyz, port: 61510, type: hysteria2, password: 02e30e3f-d638-4714-8070-b844f297e45d, auth: 02e30e3f-d638-4714-8070-b844f297e45d, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_15, server: 188.114.96.3, port: 443, type: vless, uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9, tls: true, tfo: false, skip-cert-verify: true, servername: PPaL03.DoxAm48378.wORKeRs.DeV, client-fingerprint: chrome, network: ws, ws-opts: {path: "/VTKTUmnmhPthqkr0?ed=2560", headers: {Host: PPaL03.DoxAm48378.wORKeRs.DeV}}, udp: true}
+  - {name: UN_16, server: cmcc.abyssvpn.com, port: 31110, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
+  - {name: UN_18, server: kaikaixinxin-ca.legeth.xyz, port: 61237, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_2, server: bgp.abyssvpn.com, port: 31106, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
+  - {name: UN_20, server: kaikaixinxin-ca.legeth.xyz, port: 61698, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_22, server: 104.17.219.20, port: 2053, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: aa.txtxt.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: aa.txtxt.us.kg}}, udp: true}
+  - {name: UN_23, server: jp.vvcloud.us.kg, port: 20997, type: hysteria2, password: 61acab04-8669-46a5-8235-e0c4836b7cc4, auth: 61acab04-8669-46a5-8235-e0c4836b7cc4, sni: jp.vvcloud.us.kg, skip-cert-verify: true, udp: true}
+  - {name: UN_24, server: cmcc.abyssvpn.com, port: 31104, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
+  - {name: UN_25, server: cmcc.abyssvpn.com, port: 31152, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
+  - {name: UN_27, server: bgp.abyssvpn.com, port: 31102, type: hysteria2, password: 107bc18d-797d-4997-8faf-f6d354836774, auth: 107bc18d-797d-4997-8faf-f6d354836774, skip-cert-verify: true, udp: true}
+  - {name: UN_29, server: bgp.abyssvpn.com, port: 31154, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
+  - {name: UN_3, server: kaikaixinxin-ca.legeth.xyz, port: 61093, type: hysteria2, password: 04457c1f-252f-4389-acbe-f4854064c155, auth: 04457c1f-252f-4389-acbe-f4854064c155, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_30, server: kaikaixinxin-ca.legeth.xyz, port: 61820, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_32, server: cucc.abyssvpn.com, port: 31126, type: hysteria2, password: d1f137aa-5539-4f9c-bf3c-ff7edab0f0f5, auth: d1f137aa-5539-4f9c-bf3c-ff7edab0f0f5, skip-cert-verify: true, udp: true}
+  - {name: UN_33, server: cmcc.abyssvpn.com, port: 31106, type: hysteria2, password: 46252b3d-bca5-4754-ac40-fa0acbbd46c9, auth: 46252b3d-bca5-4754-ac40-fa0acbbd46c9, skip-cert-verify: true, udp: true}
+  - {name: UN_34, server: kaikaixinxin-ca.legeth.xyz, port: 61060, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_39, server: kaikaixinxin-ca.legeth.xyz, port: 61282, type: hysteria2, password: 04457c1f-252f-4389-acbe-f4854064c155, auth: 04457c1f-252f-4389-acbe-f4854064c155, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_4, server: bgp.abyssvpn.com, port: 31161, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
+  - {name: UN_44, server: cucc.abyssvpn.com, port: 31152, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
+  - {name: UN_45, server: kaikaixinxin-ca.legeth.xyz, port: 61180, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_46, server: bgp.abyssvpn.com, port: 31200, type: hysteria2, password: 46252b3d-bca5-4754-ac40-fa0acbbd46c9, auth: 46252b3d-bca5-4754-ac40-fa0acbbd46c9, skip-cert-verify: true, udp: true}
+  - {name: UN_47, server: cmcc.abyssvpn.com, port: 31111, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
+  - {name: UN_48, server: bgp.abyssvpn.com, port: 31125, type: hysteria2, password: 107bc18d-797d-4997-8faf-f6d354836774, auth: 107bc18d-797d-4997-8faf-f6d354836774, skip-cert-verify: true, udp: true}
+  - {name: UN_49, server: kaikaixinxin-us.legeth.xyz, port: 61529, type: hysteria2, password: b5a6c71c-b0e2-49f2-a20f-d3d1fceba8a1, auth: b5a6c71c-b0e2-49f2-a20f-d3d1fceba8a1, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_5, server: hk.vvcloud.us.kg, port: 20970, type: hysteria2, password: 432be2d3-c065-4e96-bf09-b3e6734340a1, auth: 432be2d3-c065-4e96-bf09-b3e6734340a1, sni: hk.vvcloud.us.kg, skip-cert-verify: true, udp: true}
+  - {name: UN_51, server: cucc.abyssvpn.com, port: 31159, type: hysteria2, password: faa74338-dff1-4539-b8ca-e063ba7e2344, auth: faa74338-dff1-4539-b8ca-e063ba7e2344, skip-cert-verify: true, udp: true}
+  - {name: UN_52, server: cucc.abyssvpn.com, port: 31155, type: hysteria2, password: faa74338-dff1-4539-b8ca-e063ba7e2344, auth: faa74338-dff1-4539-b8ca-e063ba7e2344, skip-cert-verify: true, udp: true}
+  - {name: UN_55, server: kaikaixinxin-ca.legeth.xyz, port: 61360, type: hysteria2, password: 02e30e3f-d638-4714-8070-b844f297e45d, auth: 02e30e3f-d638-4714-8070-b844f297e45d, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_57, server: bgp.abyssvpn.com, port: 31121, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
+  - {name: UN_59, server: cmcc.abyssvpn.com, port: 31159, type: hysteria2, password: 4cc35e66-1590-45b6-bd71-025dac0168c8, auth: 4cc35e66-1590-45b6-bd71-025dac0168c8, skip-cert-verify: true, udp: true}
+  - {name: UN_60, server: cucc.abyssvpn.com, port: 31105, type: hysteria2, password: d50810b8-a127-4579-a207-e1bf746c9c81, auth: d50810b8-a127-4579-a207-e1bf746c9c81, skip-cert-verify: true, udp: true}
+  - {name: UN_61, server: kaikaixinxin-us.legeth.xyz, port: 61331, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_62, server: kaikaixinxin-ca.legeth.xyz, port: 61193, type: hysteria2, password: cb65af30-0f81-403e-99d6-582d9cc6c91e, auth: cb65af30-0f81-403e-99d6-582d9cc6c91e, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_64, server: kaikaixinxin-us.legeth.xyz, port: 61903, type: hysteria2, password: 1b0f3f67-fd27-42b4-bff6-a54dab6a99e5, auth: 1b0f3f67-fd27-42b4-bff6-a54dab6a99e5, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_67, server: kaikaixinxin-us.legeth.xyz, port: 61552, type: hysteria2, password: b5a6c71c-b0e2-49f2-a20f-d3d1fceba8a1, auth: b5a6c71c-b0e2-49f2-a20f-d3d1fceba8a1, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_68, server: japan.com, port: 443, type: trojan, password: bpb-trojan, sni: zamim340.ggff.net, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: zamim340.ggff.net}}, udp: true}
+  - {name: UN_69, server: jp.vvcloud.us.kg, port: 20972, type: hysteria2, password: 432be2d3-c065-4e96-bf09-b3e6734340a1, auth: 432be2d3-c065-4e96-bf09-b3e6734340a1, sni: jp.vvcloud.us.kg, skip-cert-verify: true, udp: true}
+  - {name: UN_70, server: bgp.abyssvpn.com, port: 31107, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
+  - {name: UN_71, server: cf.090227.xyz, port: 2095, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, skip-cert-verify: true, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: fuckingcloudflare.hagou-inc.workers.dev}}, udp: true}
+  - {name: UN_72, server: cmcc.abyssvpn.com, port: 31123, type: hysteria2, password: faa74338-dff1-4539-b8ca-e063ba7e2344, auth: faa74338-dff1-4539-b8ca-e063ba7e2344, skip-cert-verify: true, udp: true}
+  - {name: UN_73, server: cmcc.abyssvpn.com, port: 31157, type: hysteria2, password: faa74338-dff1-4539-b8ca-e063ba7e2344, auth: faa74338-dff1-4539-b8ca-e063ba7e2344, skip-cert-verify: true, udp: true}
+  - {name: UN_77, server: cucc.abyssvpn.com, port: 31152, type: hysteria2, password: faa74338-dff1-4539-b8ca-e063ba7e2344, auth: faa74338-dff1-4539-b8ca-e063ba7e2344, skip-cert-verify: true, udp: true}
+  - {name: UN_78, server: bgp.abyssvpn.com, port: 31120, type: hysteria2, password: 46252b3d-bca5-4754-ac40-fa0acbbd46c9, auth: 46252b3d-bca5-4754-ac40-fa0acbbd46c9, skip-cert-verify: true, udp: true}
+  - {name: UN_79, server: jp.1010520.xyz, port: 1002, type: hysteria2, password: 6dab4571-cf66-47a5-a350-bb76c72e5aa6, auth: 6dab4571-cf66-47a5-a350-bb76c72e5aa6, sni: jp.1010520.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_8, server: kaikaixinxin-ca.legeth.xyz, port: 61886, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_80, server: kaikaixinxin-us.legeth.xyz, port: 61084, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_81, server: kaikaixinxin-ca.legeth.xyz, port: 61574, type: hysteria2, password: 04457c1f-252f-4389-acbe-f4854064c155, auth: 04457c1f-252f-4389-acbe-f4854064c155, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_82, server: kaikaixinxin-ca.legeth.xyz, port: 61494, type: hysteria2, password: cb65af30-0f81-403e-99d6-582d9cc6c91e, auth: cb65af30-0f81-403e-99d6-582d9cc6c91e, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_83, server: sg.vvcloud.us.kg, port: 20904, type: hysteria2, password: 432be2d3-c065-4e96-bf09-b3e6734340a1, auth: 432be2d3-c065-4e96-bf09-b3e6734340a1, sni: sg.vvcloud.us.kg, skip-cert-verify: true, udp: true}
+  - {name: UN_84, server: bgp.abyssvpn.com, port: 31155, type: hysteria2, password: faa74338-dff1-4539-b8ca-e063ba7e2344, auth: faa74338-dff1-4539-b8ca-e063ba7e2344, skip-cert-verify: true, udp: true}
+  - {name: UN_86, server: cucc.abyssvpn.com, port: 31117, type: hysteria2, password: 107bc18d-797d-4997-8faf-f6d354836774, auth: 107bc18d-797d-4997-8faf-f6d354836774, sni: apple.com, skip-cert-verify: true, udp: true}
+  - {name: UN_87, server: fr.1010520.xyz, port: 1002, type: hysteria2, password: 6dab4571-cf66-47a5-a350-bb76c72e5aa6, auth: 6dab4571-cf66-47a5-a350-bb76c72e5aa6, sni: fr.1010520.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_88, server: kaikaixinxin-us.legeth.xyz, port: 61081, type: hysteria2, password: 02e30e3f-d638-4714-8070-b844f297e45d, auth: 02e30e3f-d638-4714-8070-b844f297e45d, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_89, server: bgp.abyssvpn.com, port: 31153, type: hysteria2, password: ea6d53c7-4389-4367-90a0-74cb08acc53d, auth: ea6d53c7-4389-4367-90a0-74cb08acc53d, skip-cert-verify: true, udp: true}
+  - {name: UN_9, server: hk.vvcloud.us.kg, port: 20937, type: hysteria2, password: 61acab04-8669-46a5-8235-e0c4836b7cc4, auth: 61acab04-8669-46a5-8235-e0c4836b7cc4, sni: hk.vvcloud.us.kg, skip-cert-verify: true, udp: true}
+  - {name: UN_90, server: 172.67.135.23, port: 443, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: UN_91, server: kaikaixinxin-us.legeth.xyz, port: 61982, type: hysteria2, password: 04457c1f-252f-4389-acbe-f4854064c155, auth: 04457c1f-252f-4389-acbe-f4854064c155, sni: kaikaixinxin-us.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: UN_92, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: d84f4422-40ef-4fcb-964c-d506b854a3d9, auth: d84f4422-40ef-4fcb-964c-d506b854a3d9, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: UN_93, server: cucc.abyssvpn.com, port: 31120, type: hysteria2, password: faa74338-dff1-4539-b8ca-e063ba7e2344, auth: faa74338-dff1-4539-b8ca-e063ba7e2344, skip-cert-verify: true, udp: true}
+  - {name: UN_95, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: fff69698-7ea1-4559-bb6f-cb30ac8d91d2, auth: fff69698-7ea1-4559-bb6f-cb30ac8d91d2, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: UN_96, server: us.vvcloud.us.kg, port: 20951, type: hysteria2, password: 29b17060-f16a-459c-85d7-dee4cdde89f0, auth: 29b17060-f16a-459c-85d7-dee4cdde89f0, sni: us.vvcloud.us.kg, skip-cert-verify: true, udp: true}
+  - {name: UN_97, server: kaikaixinxin-ca.legeth.xyz, port: 61520, type: hysteria2, password: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, auth: fb15ac3f-6acd-44cb-8d74-a2f26ee2295b, sni: kaikaixinxin-ca.legeth.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_10, server: 91.149.239.122, port: 443, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: US_11, server: 154.211.8.84, port: 2083, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: US_35, server: 108.165.152.0, port: 8443, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: US_37, server: 195.123.240.40, port: 81, type: vless, uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9, tls: true, tfo: false, skip-cert-verify: true, servername: dsa.bgm2024.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dsa.bgm2024.us.kg}}, udp: true}
+  - {name: US_42, server: busy-buffalo.treefrog761.one, port: 443, type: trojan, password: 3723507166611775488, skip-cert-verify: true, udp: true}
+  - {name: US_43, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.23179753.xyz, network: ws, ws-opts: {path: /path/181721272114}, udp: true}
+  - {name: US_66, server: 108.165.152.131, port: 443, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.classelivre.eu.org:15661", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: US_74, server: 103.116.7.133, port: 2083, type: vless, uuid: 9b0faee3-b5d1-4fb0-9130-41b4eda3a896, tls: true, tfo: false, skip-cert-verify: true, servername: ts.onjim.us.kg, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ts.onjim.us.kg}}, udp: true}
+  - {name: US_75, server: 172.111.36.108, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: irene.lat, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: US_94, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.23179753.xyz, network: ws, ws-opts: {path: /path/340434130032}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AU_14
-      - AU_85
+      - AE_6
+      - AE_7
       - CA_19
-      - CA_95
-      - CZ_35
-      - DE_25
-      - DE_51
-      - DE_59
-      - DE_71
-      - FR_24
-      - FR_26
-      - FR_73
-      - GB_53
-      - IE_60
-      - NL_30
-      - NL_55
-      - NL_7
-      - NL_88
-      - NP_29
-      - RU_82
-      - SE_84
+      - CA_26
+      - CA_63
+      - CZ_36
+      - DE_98
+      - FR_28
+      - FR_54
+      - GB_17
+      - GB_40
+      - IN_99
+      - IR_41
+      - JP_38
+      - JP_65
+      - JP_85
+      - KR_56
+      - MD_76
+      - NL_50
+      - NL_53
+      - PL_0
+      - SG_21
+      - SG_31
       - SG_58
-      - SG_75
-      - UN_0
       - UN_1
-      - UN_10
-      - UN_11
       - UN_12
       - UN_13
+      - UN_14
       - UN_15
       - UN_16
-      - UN_17
       - UN_18
       - UN_2
       - UN_20
-      - UN_21
       - UN_22
       - UN_23
+      - UN_24
+      - UN_25
       - UN_27
-      - UN_28
+      - UN_29
       - UN_3
-      - UN_31
+      - UN_30
       - UN_32
       - UN_33
       - UN_34
-      - UN_36
-      - UN_37
       - UN_39
       - UN_4
-      - UN_40
-      - UN_41
-      - UN_42
-      - UN_43
       - UN_44
       - UN_45
       - UN_46
       - UN_47
+      - UN_48
       - UN_49
-      - UN_50
-      - UN_54
-      - UN_56
+      - UN_5
+      - UN_51
+      - UN_52
+      - UN_55
       - UN_57
-      - UN_6
+      - UN_59
+      - UN_60
       - UN_61
       - UN_62
-      - UN_63
-      - UN_65
-      - UN_66
+      - UN_64
+      - UN_67
       - UN_68
       - UN_69
       - UN_70
+      - UN_71
       - UN_72
-      - UN_74
+      - UN_73
       - UN_77
       - UN_78
       - UN_79
       - UN_8
       - UN_80
+      - UN_81
+      - UN_82
       - UN_83
+      - UN_84
       - UN_86
       - UN_87
+      - UN_88
       - UN_89
+      - UN_9
       - UN_90
       - UN_91
       - UN_92
       - UN_93
-      - UN_94
+      - UN_95
       - UN_96
       - UN_97
-      - UN_98
-      - UN_99
-      - US_38
-      - US_48
-      - US_5
-      - US_52
-      - US_64
-      - US_67
-      - US_76
-      - US_81
-      - US_9
+      - US_10
+      - US_11
+      - US_35
+      - US_37
+      - US_42
+      - US_43
+      - US_66
+      - US_74
+      - US_75
+      - US_94
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AU_14
-      - AU_85
+      - AE_6
+      - AE_7
       - CA_19
-      - CA_95
-      - CZ_35
-      - DE_25
-      - DE_51
-      - DE_59
-      - DE_71
-      - FR_24
-      - FR_26
-      - FR_73
-      - GB_53
-      - IE_60
-      - NL_30
-      - NL_55
-      - NL_7
-      - NL_88
-      - NP_29
-      - RU_82
-      - SE_84
+      - CA_26
+      - CA_63
+      - CZ_36
+      - DE_98
+      - FR_28
+      - FR_54
+      - GB_17
+      - GB_40
+      - IN_99
+      - IR_41
+      - JP_38
+      - JP_65
+      - JP_85
+      - KR_56
+      - MD_76
+      - NL_50
+      - NL_53
+      - PL_0
+      - SG_21
+      - SG_31
       - SG_58
-      - SG_75
-      - UN_0
       - UN_1
-      - UN_10
-      - UN_11
       - UN_12
       - UN_13
+      - UN_14
       - UN_15
       - UN_16
-      - UN_17
       - UN_18
       - UN_2
       - UN_20
-      - UN_21
       - UN_22
       - UN_23
+      - UN_24
+      - UN_25
       - UN_27
-      - UN_28
+      - UN_29
       - UN_3
-      - UN_31
+      - UN_30
       - UN_32
       - UN_33
       - UN_34
-      - UN_36
-      - UN_37
       - UN_39
       - UN_4
-      - UN_40
-      - UN_41
-      - UN_42
-      - UN_43
       - UN_44
       - UN_45
       - UN_46
       - UN_47
+      - UN_48
       - UN_49
-      - UN_50
-      - UN_54
-      - UN_56
+      - UN_5
+      - UN_51
+      - UN_52
+      - UN_55
       - UN_57
-      - UN_6
+      - UN_59
+      - UN_60
       - UN_61
       - UN_62
-      - UN_63
-      - UN_65
-      - UN_66
+      - UN_64
+      - UN_67
       - UN_68
       - UN_69
       - UN_70
+      - UN_71
       - UN_72
-      - UN_74
+      - UN_73
       - UN_77
       - UN_78
       - UN_79
       - UN_8
       - UN_80
+      - UN_81
+      - UN_82
       - UN_83
+      - UN_84
       - UN_86
       - UN_87
+      - UN_88
       - UN_89
+      - UN_9
       - UN_90
       - UN_91
       - UN_92
       - UN_93
-      - UN_94
+      - UN_95
       - UN_96
       - UN_97
-      - UN_98
-      - UN_99
-      - US_38
-      - US_48
-      - US_5
-      - US_52
-      - US_64
-      - US_67
-      - US_76
-      - US_81
-      - US_9
+      - US_10
+      - US_11
+      - US_35
+      - US_37
+      - US_42
+      - US_43
+      - US_66
+      - US_74
+      - US_75
+      - US_94
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AU_14
-      - AU_85
+      - AE_6
+      - AE_7
       - CA_19
-      - CA_95
-      - CZ_35
-      - DE_25
-      - DE_51
-      - DE_59
-      - DE_71
-      - FR_24
-      - FR_26
-      - FR_73
-      - GB_53
-      - IE_60
-      - NL_30
-      - NL_55
-      - NL_7
-      - NL_88
-      - NP_29
-      - RU_82
-      - SE_84
+      - CA_26
+      - CA_63
+      - CZ_36
+      - DE_98
+      - FR_28
+      - FR_54
+      - GB_17
+      - GB_40
+      - IN_99
+      - IR_41
+      - JP_38
+      - JP_65
+      - JP_85
+      - KR_56
+      - MD_76
+      - NL_50
+      - NL_53
+      - PL_0
+      - SG_21
+      - SG_31
       - SG_58
-      - SG_75
-      - UN_0
       - UN_1
-      - UN_10
-      - UN_11
       - UN_12
       - UN_13
+      - UN_14
       - UN_15
       - UN_16
-      - UN_17
       - UN_18
       - UN_2
       - UN_20
-      - UN_21
       - UN_22
       - UN_23
+      - UN_24
+      - UN_25
       - UN_27
-      - UN_28
+      - UN_29
       - UN_3
-      - UN_31
+      - UN_30
       - UN_32
       - UN_33
       - UN_34
-      - UN_36
-      - UN_37
       - UN_39
       - UN_4
-      - UN_40
-      - UN_41
-      - UN_42
-      - UN_43
       - UN_44
       - UN_45
       - UN_46
       - UN_47
+      - UN_48
       - UN_49
-      - UN_50
-      - UN_54
-      - UN_56
+      - UN_5
+      - UN_51
+      - UN_52
+      - UN_55
       - UN_57
-      - UN_6
+      - UN_59
+      - UN_60
       - UN_61
       - UN_62
-      - UN_63
-      - UN_65
-      - UN_66
+      - UN_64
+      - UN_67
       - UN_68
       - UN_69
       - UN_70
+      - UN_71
       - UN_72
-      - UN_74
+      - UN_73
       - UN_77
       - UN_78
       - UN_79
       - UN_8
       - UN_80
+      - UN_81
+      - UN_82
       - UN_83
+      - UN_84
       - UN_86
       - UN_87
+      - UN_88
       - UN_89
+      - UN_9
       - UN_90
       - UN_91
       - UN_92
       - UN_93
-      - UN_94
+      - UN_95
       - UN_96
       - UN_97
-      - UN_98
-      - UN_99
-      - US_38
-      - US_48
-      - US_5
-      - US_52
-      - US_64
-      - US_67
-      - US_76
-      - US_81
-      - US_9
+      - US_10
+      - US_11
+      - US_35
+      - US_37
+      - US_42
+      - US_43
+      - US_66
+      - US_74
+      - US_75
+      - US_94
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -440,106 +440,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AU_14
-      - AU_85
+      - AE_6
+      - AE_7
       - CA_19
-      - CA_95
-      - CZ_35
-      - DE_25
-      - DE_51
-      - DE_59
-      - DE_71
-      - FR_24
-      - FR_26
-      - FR_73
-      - GB_53
-      - IE_60
-      - NL_30
-      - NL_55
-      - NL_7
-      - NL_88
-      - NP_29
-      - RU_82
-      - SE_84
+      - CA_26
+      - CA_63
+      - CZ_36
+      - DE_98
+      - FR_28
+      - FR_54
+      - GB_17
+      - GB_40
+      - IN_99
+      - IR_41
+      - JP_38
+      - JP_65
+      - JP_85
+      - KR_56
+      - MD_76
+      - NL_50
+      - NL_53
+      - PL_0
+      - SG_21
+      - SG_31
       - SG_58
-      - SG_75
-      - UN_0
       - UN_1
-      - UN_10
-      - UN_11
       - UN_12
       - UN_13
+      - UN_14
       - UN_15
       - UN_16
-      - UN_17
       - UN_18
       - UN_2
       - UN_20
-      - UN_21
       - UN_22
       - UN_23
+      - UN_24
+      - UN_25
       - UN_27
-      - UN_28
+      - UN_29
       - UN_3
-      - UN_31
+      - UN_30
       - UN_32
       - UN_33
       - UN_34
-      - UN_36
-      - UN_37
       - UN_39
       - UN_4
-      - UN_40
-      - UN_41
-      - UN_42
-      - UN_43
       - UN_44
       - UN_45
       - UN_46
       - UN_47
+      - UN_48
       - UN_49
-      - UN_50
-      - UN_54
-      - UN_56
+      - UN_5
+      - UN_51
+      - UN_52
+      - UN_55
       - UN_57
-      - UN_6
+      - UN_59
+      - UN_60
       - UN_61
       - UN_62
-      - UN_63
-      - UN_65
-      - UN_66
+      - UN_64
+      - UN_67
       - UN_68
       - UN_69
       - UN_70
+      - UN_71
       - UN_72
-      - UN_74
+      - UN_73
       - UN_77
       - UN_78
       - UN_79
       - UN_8
       - UN_80
+      - UN_81
+      - UN_82
       - UN_83
+      - UN_84
       - UN_86
       - UN_87
+      - UN_88
       - UN_89
+      - UN_9
       - UN_90
       - UN_91
       - UN_92
       - UN_93
-      - UN_94
+      - UN_95
       - UN_96
       - UN_97
-      - UN_98
-      - UN_99
-      - US_38
-      - US_48
-      - US_5
-      - US_52
-      - US_64
-      - US_67
-      - US_76
-      - US_81
-      - US_9
+      - US_10
+      - US_11
+      - US_35
+      - US_37
+      - US_42
+      - US_43
+      - US_66
+      - US_74
+      - US_75
+      - US_94
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -550,317 +550,317 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - AU_14
-      - AU_85
+      - AE_6
+      - AE_7
       - CA_19
-      - CA_95
-      - CZ_35
-      - DE_25
-      - DE_51
-      - DE_59
-      - DE_71
-      - FR_24
-      - FR_26
-      - FR_73
-      - GB_53
-      - IE_60
-      - NL_30
-      - NL_55
-      - NL_7
-      - NL_88
-      - NP_29
-      - RU_82
-      - SE_84
+      - CA_26
+      - CA_63
+      - CZ_36
+      - DE_98
+      - FR_28
+      - FR_54
+      - GB_17
+      - GB_40
+      - IN_99
+      - IR_41
+      - JP_38
+      - JP_65
+      - JP_85
+      - KR_56
+      - MD_76
+      - NL_50
+      - NL_53
+      - PL_0
+      - SG_21
+      - SG_31
       - SG_58
-      - SG_75
-      - UN_0
       - UN_1
-      - UN_10
-      - UN_11
       - UN_12
       - UN_13
+      - UN_14
       - UN_15
       - UN_16
-      - UN_17
       - UN_18
       - UN_2
       - UN_20
-      - UN_21
       - UN_22
       - UN_23
+      - UN_24
+      - UN_25
       - UN_27
-      - UN_28
+      - UN_29
       - UN_3
-      - UN_31
+      - UN_30
       - UN_32
       - UN_33
       - UN_34
-      - UN_36
-      - UN_37
       - UN_39
       - UN_4
-      - UN_40
-      - UN_41
-      - UN_42
-      - UN_43
       - UN_44
       - UN_45
       - UN_46
       - UN_47
+      - UN_48
       - UN_49
-      - UN_50
-      - UN_54
-      - UN_56
+      - UN_5
+      - UN_51
+      - UN_52
+      - UN_55
       - UN_57
-      - UN_6
+      - UN_59
+      - UN_60
       - UN_61
       - UN_62
-      - UN_63
-      - UN_65
-      - UN_66
+      - UN_64
+      - UN_67
       - UN_68
       - UN_69
       - UN_70
+      - UN_71
       - UN_72
-      - UN_74
+      - UN_73
       - UN_77
       - UN_78
       - UN_79
       - UN_8
       - UN_80
+      - UN_81
+      - UN_82
       - UN_83
+      - UN_84
       - UN_86
       - UN_87
+      - UN_88
       - UN_89
+      - UN_9
       - UN_90
       - UN_91
       - UN_92
       - UN_93
-      - UN_94
+      - UN_95
       - UN_96
       - UN_97
-      - UN_98
-      - UN_99
-      - US_38
-      - US_48
-      - US_5
-      - US_52
-      - US_64
-      - US_67
-      - US_76
-      - US_81
-      - US_9
+      - US_10
+      - US_11
+      - US_35
+      - US_37
+      - US_42
+      - US_43
+      - US_66
+      - US_74
+      - US_75
+      - US_94
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - AU_14
-      - AU_85
+      - AE_6
+      - AE_7
       - CA_19
-      - CA_95
-      - CZ_35
-      - DE_25
-      - DE_51
-      - DE_59
-      - DE_71
-      - FR_24
-      - FR_26
-      - FR_73
-      - GB_53
-      - IE_60
-      - NL_30
-      - NL_55
-      - NL_7
-      - NL_88
-      - NP_29
-      - RU_82
-      - SE_84
+      - CA_26
+      - CA_63
+      - CZ_36
+      - DE_98
+      - FR_28
+      - FR_54
+      - GB_17
+      - GB_40
+      - IN_99
+      - IR_41
+      - JP_38
+      - JP_65
+      - JP_85
+      - KR_56
+      - MD_76
+      - NL_50
+      - NL_53
+      - PL_0
+      - SG_21
+      - SG_31
       - SG_58
-      - SG_75
-      - UN_0
       - UN_1
-      - UN_10
-      - UN_11
       - UN_12
       - UN_13
+      - UN_14
       - UN_15
       - UN_16
-      - UN_17
       - UN_18
       - UN_2
       - UN_20
-      - UN_21
       - UN_22
       - UN_23
+      - UN_24
+      - UN_25
       - UN_27
-      - UN_28
+      - UN_29
       - UN_3
-      - UN_31
+      - UN_30
       - UN_32
       - UN_33
       - UN_34
-      - UN_36
-      - UN_37
       - UN_39
       - UN_4
-      - UN_40
-      - UN_41
-      - UN_42
-      - UN_43
       - UN_44
       - UN_45
       - UN_46
       - UN_47
+      - UN_48
       - UN_49
-      - UN_50
-      - UN_54
-      - UN_56
+      - UN_5
+      - UN_51
+      - UN_52
+      - UN_55
       - UN_57
-      - UN_6
+      - UN_59
+      - UN_60
       - UN_61
       - UN_62
-      - UN_63
-      - UN_65
-      - UN_66
+      - UN_64
+      - UN_67
       - UN_68
       - UN_69
       - UN_70
+      - UN_71
       - UN_72
-      - UN_74
+      - UN_73
       - UN_77
       - UN_78
       - UN_79
       - UN_8
       - UN_80
+      - UN_81
+      - UN_82
       - UN_83
+      - UN_84
       - UN_86
       - UN_87
+      - UN_88
       - UN_89
+      - UN_9
       - UN_90
       - UN_91
       - UN_92
       - UN_93
-      - UN_94
+      - UN_95
       - UN_96
       - UN_97
-      - UN_98
-      - UN_99
-      - US_38
-      - US_48
-      - US_5
-      - US_52
-      - US_64
-      - US_67
-      - US_76
-      - US_81
-      - US_9
+      - US_10
+      - US_11
+      - US_35
+      - US_37
+      - US_42
+      - US_43
+      - US_66
+      - US_74
+      - US_75
+      - US_94
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AU_14
-      - AU_85
+      - AE_6
+      - AE_7
       - CA_19
-      - CA_95
-      - CZ_35
-      - DE_25
-      - DE_51
-      - DE_59
-      - DE_71
-      - FR_24
-      - FR_26
-      - FR_73
-      - GB_53
-      - IE_60
-      - NL_30
-      - NL_55
-      - NL_7
-      - NL_88
-      - NP_29
-      - RU_82
-      - SE_84
+      - CA_26
+      - CA_63
+      - CZ_36
+      - DE_98
+      - FR_28
+      - FR_54
+      - GB_17
+      - GB_40
+      - IN_99
+      - IR_41
+      - JP_38
+      - JP_65
+      - JP_85
+      - KR_56
+      - MD_76
+      - NL_50
+      - NL_53
+      - PL_0
+      - SG_21
+      - SG_31
       - SG_58
-      - SG_75
-      - UN_0
       - UN_1
-      - UN_10
-      - UN_11
       - UN_12
       - UN_13
+      - UN_14
       - UN_15
       - UN_16
-      - UN_17
       - UN_18
       - UN_2
       - UN_20
-      - UN_21
       - UN_22
       - UN_23
+      - UN_24
+      - UN_25
       - UN_27
-      - UN_28
+      - UN_29
       - UN_3
-      - UN_31
+      - UN_30
       - UN_32
       - UN_33
       - UN_34
-      - UN_36
-      - UN_37
       - UN_39
       - UN_4
-      - UN_40
-      - UN_41
-      - UN_42
-      - UN_43
       - UN_44
       - UN_45
       - UN_46
       - UN_47
+      - UN_48
       - UN_49
-      - UN_50
-      - UN_54
-      - UN_56
+      - UN_5
+      - UN_51
+      - UN_52
+      - UN_55
       - UN_57
-      - UN_6
+      - UN_59
+      - UN_60
       - UN_61
       - UN_62
-      - UN_63
-      - UN_65
-      - UN_66
+      - UN_64
+      - UN_67
       - UN_68
       - UN_69
       - UN_70
+      - UN_71
       - UN_72
-      - UN_74
+      - UN_73
       - UN_77
       - UN_78
       - UN_79
       - UN_8
       - UN_80
+      - UN_81
+      - UN_82
       - UN_83
+      - UN_84
       - UN_86
       - UN_87
+      - UN_88
       - UN_89
+      - UN_9
       - UN_90
       - UN_91
       - UN_92
       - UN_93
-      - UN_94
+      - UN_95
       - UN_96
       - UN_97
-      - UN_98
-      - UN_99
-      - US_38
-      - US_48
-      - US_5
-      - US_52
-      - US_64
-      - US_67
-      - US_76
-      - US_81
-      - US_9
+      - US_10
+      - US_11
+      - US_35
+      - US_37
+      - US_42
+      - US_43
+      - US_66
+      - US_74
+      - US_75
+      - US_94
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -876,106 +876,106 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AU_14
-      - AU_85
+      - AE_6
+      - AE_7
       - CA_19
-      - CA_95
-      - CZ_35
-      - DE_25
-      - DE_51
-      - DE_59
-      - DE_71
-      - FR_24
-      - FR_26
-      - FR_73
-      - GB_53
-      - IE_60
-      - NL_30
-      - NL_55
-      - NL_7
-      - NL_88
-      - NP_29
-      - RU_82
-      - SE_84
+      - CA_26
+      - CA_63
+      - CZ_36
+      - DE_98
+      - FR_28
+      - FR_54
+      - GB_17
+      - GB_40
+      - IN_99
+      - IR_41
+      - JP_38
+      - JP_65
+      - JP_85
+      - KR_56
+      - MD_76
+      - NL_50
+      - NL_53
+      - PL_0
+      - SG_21
+      - SG_31
       - SG_58
-      - SG_75
-      - UN_0
       - UN_1
-      - UN_10
-      - UN_11
       - UN_12
       - UN_13
+      - UN_14
       - UN_15
       - UN_16
-      - UN_17
       - UN_18
       - UN_2
       - UN_20
-      - UN_21
       - UN_22
       - UN_23
+      - UN_24
+      - UN_25
       - UN_27
-      - UN_28
+      - UN_29
       - UN_3
-      - UN_31
+      - UN_30
       - UN_32
       - UN_33
       - UN_34
-      - UN_36
-      - UN_37
       - UN_39
       - UN_4
-      - UN_40
-      - UN_41
-      - UN_42
-      - UN_43
       - UN_44
       - UN_45
       - UN_46
       - UN_47
+      - UN_48
       - UN_49
-      - UN_50
-      - UN_54
-      - UN_56
+      - UN_5
+      - UN_51
+      - UN_52
+      - UN_55
       - UN_57
-      - UN_6
+      - UN_59
+      - UN_60
       - UN_61
       - UN_62
-      - UN_63
-      - UN_65
-      - UN_66
+      - UN_64
+      - UN_67
       - UN_68
       - UN_69
       - UN_70
+      - UN_71
       - UN_72
-      - UN_74
+      - UN_73
       - UN_77
       - UN_78
       - UN_79
       - UN_8
       - UN_80
+      - UN_81
+      - UN_82
       - UN_83
+      - UN_84
       - UN_86
       - UN_87
+      - UN_88
       - UN_89
+      - UN_9
       - UN_90
       - UN_91
       - UN_92
       - UN_93
-      - UN_94
+      - UN_95
       - UN_96
       - UN_97
-      - UN_98
-      - UN_99
-      - US_38
-      - US_48
-      - US_5
-      - US_52
-      - US_64
-      - US_67
-      - US_76
-      - US_81
-      - US_9
+      - US_10
+      - US_11
+      - US_35
+      - US_37
+      - US_42
+      - US_43
+      - US_66
+      - US_74
+      - US_75
+      - US_94
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
