@@ -11,31 +11,31 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Timezone
-      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    # - name: Timezone
+    #   run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: git config
       run: git config --local user.name "GitHub Actions"; git config --local user.email "actions@github.com"
     
-    - name: Checkout private repository
+    - name: pull pwc  
       uses: actions/checkout@v4
       with:
         repository: kSLAWIASCA/collect
         token: ${{ secrets.privates }}
         path: pwc
 
-    - name: Change directory and run pipeline.py
+    - name: run pipeline
       run: |
         cd pwc
         python pipieline_new.py
 
-    - name: Checkout this repository
+    - name: pull actions
       uses: actions/checkout@v4
       with:
         repository: kSLAWIASCA/actions
         token: ${{ secrets.privates }}
         path: actions
 
-    - name: Copy Clash.yml
+    - name: copy files
       run: |
         pwd
         cd actions && pwd
@@ -45,7 +45,7 @@ jobs:
     # - name: Remove pwc directory
     #   run: rm -rf pwc
 
-    - name: Commit and push
+    - name: push to actions
       run: |
         pwd
         cd actions
@@ -57,18 +57,28 @@ jobs:
         git commit -m "$(date '+%Y.%m.%d %H:%M:%S') update"
         git push origin main
 
-    # - name: Commit and push to pwc repository
-    #   run: |
-    #     cd pwc
-    #     git config --local user.name "GitHub Actions"
-    #     git config --local user.email "actions@github.com"
-    #     if [[ `git status --porcelain` ]]; then
-    #       git pull origin main
-    #       git merge main
-    #       git add .
-    #       git commit -m "$(date '+%Y.%m.%d %H:%M:%S') update"
-    #       git push origin main
-    #     else
-    #       echo "No changes to commit"
-    #     fi
+    - name: pull toy
+      uses: actions/checkout@v4
+      with:
+        repository: Kdwkakcs/spider
+        token: ${{ secrets.upload }}
+        path: toy
+
+    - name: push to toy
+      run: |
+        cd toy
+        cp ../pwc/clash.yml ./Clash.yaml
+        cp ../pwc/singbox*.json ./
+
+        git config --local user.name "GitHub Actions"
+        git config --local user.email "actions@github.com"
+        if [[ `git status --porcelain` ]]; then
+          git pull origin main
+          git merge main
+          git add .
+          git commit -m "$(date '+%Y.%m.%d %H:%M:%S') update"
+          git push origin main
+        else
+          echo "No changes to commit"
+        fi
 
