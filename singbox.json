@@ -91,24 +91,9 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "AT_86",
-      "server": "151.101.2.219",
-      "server_port": 80,
-      "uuid": "65ea7896-d74f-4e5f-81ff-a3305a0ce2cd",
-      "transport": {
-        "path": "/vless?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560",
-        "type": "ws",
-        "headers": {
-          "Host": "speedtest.net.ftp.debian.org.1.2.3.a.b.c.netspeedtest.net.nakdk.ir"
-        }
-      },
-      "tcp_fast_open": false
-    },
-    {
       "type": "trojan",
-      "tag": "CA_3",
-      "server": "neutral-magpie.treefrog761.one",
+      "tag": "AE_56",
+      "server": "intense-wombat.treefrog761.one",
       "server_port": 443,
       "password": "3747000125839646720",
       "tls": {
@@ -118,31 +103,11 @@
       "tcp_fast_open": false
     },
     {
-      "type": "vless",
-      "tag": "CH_83",
-      "server": "140.238.212.95",
-      "server_port": 443,
-      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
-      "transport": {
-        "path": "/?ed=2560",
-        "type": "ws",
-        "headers": {
-          "Host": "uxb.vs2024.us.kg"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uxb.vs2024.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
       "type": "trojan",
-      "tag": "DE_15",
-      "server": "pleased-slug.boa152.lol",
+      "tag": "AU_95",
+      "server": "pumped-stingray.boa152.lol",
       "server_port": 443,
-      "password": "3747000095783264256",
+      "password": "3723507166611775488",
       "tls": {
         "enabled": true,
         "insecure": true
@@ -151,53 +116,14 @@
     },
     {
       "type": "vless",
-      "tag": "DE_4",
-      "server": "130.61.39.13",
-      "server_port": 443,
-      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
-      "transport": {
-        "path": "/?ed=2560",
-        "type": "ws",
-        "headers": {
-          "Host": "uxb.vs2024.us.kg"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uxb.vs2024.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "vmess",
-      "tag": "DE_46",
-      "server": "57.129.25.20",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alter_id": 1,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {}
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "vless",
-      "tag": "DE_62",
-      "server": "89.208.96.96",
-      "server_port": 2315,
-      "uuid": "f1f1359d-ab42-4802-8223-eaa725c02681",
+      "tag": "DE_90",
+      "server": "161.97.135.181",
+      "server_port": 11443,
+      "uuid": "e674572b-1676-3f77-9ab1-61e570ddbb60",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "teamdocs.su",
+        "server_name": "www.samsung.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -205,16 +131,16 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "rJ0-oJkd_StkVnZhT3fC4En9OOxOkAdvuCAgmh28h2w",
-          "short_id": "a4c9c0cd1d37fabb"
+          "public_key": "ufosBStTtlYTLOn4Bf5x1k_do9sOK1jFkuVlHKE0MV8",
+          "short_id": ""
         }
       },
       "tcp_fast_open": false
     },
     {
       "type": "trojan",
-      "tag": "DE_91",
-      "server": "ample-cockatoo.boa152.lol",
+      "tag": "DE_99",
+      "server": "pleased-slug.boa152.lol",
       "server_port": 443,
       "password": "3738778223597854720",
       "tls": {
@@ -224,98 +150,102 @@
       "tcp_fast_open": false
     },
     {
-      "type": "vmess",
-      "tag": "FR_12",
-      "server": "hms26.xpengmotors.sbs",
-      "server_port": 443,
-      "uuid": "fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "vless",
+      "tag": "FR_1",
+      "server": "129.151.225.228",
+      "server_port": 2053,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "transport": {
+        "path": "/?ed=2560&proxyip=proxyip.oracle.fxxk.dedyn.io",
         "type": "ws",
-        "path": "/linkws",
         "headers": {
-          "Host": "hms26.xpengmotors.sbs"
+          "Host": "dsa.ylks.us.kg"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "hms26.xpengmotors.sbs",
+        "server_name": "dsa.ylks.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vmess",
+      "tag": "GB_25",
+      "server": "149.7.16.75",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {}
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vmess",
+      "tag": "GB_72",
+      "server": "149.7.16.33",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {}
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nicoler.lol",
         "insecure": true
       },
       "tcp_fast_open": false
     },
     {
       "type": "vless",
-      "tag": "FR_23",
-      "server": "87.98.149.193",
-      "server_port": 443,
-      "uuid": "8bb0a890-c6c4-4386-9fcf-7261754ac063",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-e-Py1tk4hBqFmmL-p_1l7imBS6eGWx1lVqbHWwA2yo",
-          "short_id": "6d49a78191f4d90f"
-        }
+      "tag": "HK_0",
+      "server": "212.192.15.239",
+      "server_port": 32902,
+      "uuid": "8933c5f7-0886-41ce-a27a-fb8fc1363eb6",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {}
       },
       "tcp_fast_open": false
     },
     {
-      "type": "vmess",
-      "tag": "FR_5",
-      "server": "163.5.159.231",
-      "server_port": 443,
-      "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "vless",
+      "tag": "HK_31",
+      "server": "61.239.234.5",
+      "server_port": 35500,
+      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
       "transport": {
+        "path": "/uxb.vs2024.us.kg",
         "type": "ws",
-        "path": "/linkws",
         "headers": {
-          "Host": "irvideo.cfd"
+          "Host": "uxb.vs2024.us.kg"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "irvideo.cfd",
+        "server_name": "uxb.vs2024.us.kg",
         "insecure": true
       },
       "tcp_fast_open": false
     },
     {
       "type": "vmess",
-      "tag": "FR_53",
-      "server": "indiavideo.sbs",
-      "server_port": 443,
-      "uuid": "425c5e6e-30a0-4984-8a13-ee6f72053162",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/linkws",
-        "headers": {
-          "Host": "indiavideo.sbs"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "vmess",
-      "tag": "JP_47",
-      "server": "dlgdc.thecxfcsp.top",
-      "server_port": 21569,
+      "tag": "HK_34",
+      "server": "aeqmmj.thecxfcsp.top",
+      "server_port": 12007,
       "uuid": "43cc35e7-02e8-3608-98f2-fedf499f653b",
       "alter_id": 0,
       "security": "auto",
@@ -323,14 +253,58 @@
     },
     {
       "type": "vless",
-      "tag": "JP_94",
-      "server": "46.250.255.45",
-      "server_port": 11443,
-      "uuid": "d43ca9a4-acb3-3c17-a759-e7ab698049bd",
-      "flow": "xtls-rprx-vision",
+      "tag": "HK_50",
+      "server": "212.192.15.239",
+      "server_port": 32902,
+      "uuid": "12fe25ac-5800-469d-b9a8-4beeae2c7b62",
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "headers": {}
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "JP_14",
+      "server": "high.work.lzg.me",
+      "server_port": 443,
+      "uuid": "4c5f4cf8-b30a-4658-84bb-f0145dd123d4",
+      "transport": {
+        "path": "/4c5f4cf8-b30a-4658-84bb-f0145dd123d4",
+        "type": "ws",
+        "headers": {
+          "Host": "high.work.lzg.me"
+        }
+      },
       "tls": {
         "enabled": true,
-        "server_name": "samsung.com",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "trojan",
+      "tag": "JP_79",
+      "server": "18.180.140.208",
+      "server_port": 443,
+      "password": "3723507166611775488",
+      "tls": {
+        "enabled": true,
+        "server_name": "fleet-weevil.boa152.lol",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "NL_67",
+      "server": "174.138.13.224",
+      "server_port": 15891,
+      "uuid": "ae2228d1-9b8f-4914-9e0a-68a115f8dbe1",
+      "tls": {
+        "enabled": true,
+        "server_name": "ftp.debian.org",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -338,47 +312,59 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "ufosBStTtlYTLOn4Bf5x1k_do9sOK1jFkuVlHKE0MV8",
-          "short_id": "0123456789abcdef"
+          "public_key": "4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0",
+          "short_id": "10f1"
         }
       },
       "tcp_fast_open": false
     },
     {
-      "type": "vmess",
-      "tag": "KR_18",
-      "server": "seoul-1ddns.aboutanime.eu.org",
-      "server_port": 23451,
-      "uuid": "d30d78a5-77d9-45cc-887e-43932eb58d62",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "seoul-1ddns.aboutanime.eu.org"
-        }
+      "type": "trojan",
+      "tag": "SE_55",
+      "server": "13.48.80.188",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true
       },
       "tcp_fast_open": false
     },
     {
-      "type": "vmess",
-      "tag": "KR_21",
-      "server": "146.56.112.110",
-      "server_port": 8888,
-      "uuid": "e7c302f3-90d6-42dd-9d7d-94a3683a3707",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "trojan",
+      "tag": "SE_57",
+      "server": "51.20.215.141",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "trojan",
+      "tag": "SE_85",
+      "server": "51.20.215.141",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true
+      },
       "tcp_fast_open": false
     },
     {
       "type": "vless",
-      "tag": "SG_29",
-      "server": "8.222.165.104",
-      "server_port": 443,
+      "tag": "SG_28",
+      "server": "8.222.178.214",
+      "server_port": 6666,
       "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
       "transport": {
-        "path": "/?ed=2560&proxyip=8.222.165.104:443",
+        "path": "/uxb.vs2024.us.kg",
         "type": "ws",
         "headers": {
           "Host": "uxb.vs2024.us.kg"
@@ -393,77 +379,33 @@
     },
     {
       "type": "trojan",
-      "tag": "SG_35",
-      "server": "major-reindeer.boa152.lol",
-      "server_port": 443,
-      "password": "3747000095783264256",
+      "tag": "SG_47",
+      "server": "sg008.421421.xyz",
+      "server_port": 20230,
+      "password": "5a81db08-7af3-49a4-b089-b7a5b2c24c38",
       "tls": {
         "enabled": true,
+        "server_name": "421421.xyz",
         "insecure": true
       },
       "tcp_fast_open": false
     },
     {
       "type": "vless",
-      "tag": "SG_70",
-      "server": "168.138.178.6",
-      "server_port": 19990,
-      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
+      "tag": "TW_4",
+      "server": "162.159.60.52",
+      "server_port": 443,
+      "uuid": "9b0faee3-b5d1-4fb0-9130-41b4eda3a896",
       "transport": {
         "path": "/?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "uxb.vs2024.us.kg"
+          "Host": "aa.txtxt.us.kg"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "uxb.vs2024.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "vless",
-      "tag": "TR_64",
-      "server": "104.26.12.31",
-      "server_port": 443,
-      "uuid": "5e55f1c4-cd7d-49c8-aa6f-221e0bc9ffb5",
-      "transport": {
-        "path": "/9QGAIMJM51l6JToD/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
-        "type": "ws",
-        "headers": {
-          "Host": "hameDP71-tT.PAgeS.deV"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "hameDP71-tT.PAgeS.deV",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_0",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61423,
-      "password": "127853d2-89f4-42c8-bf9f-1389400d43ea",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_1",
-      "server": "bgp.abyssvpn.com",
-      "server_port": 31126,
-      "password": "05a79a3c-7ef5-4bc3-99a6-38583669e976",
-      "tls": {
-        "enabled": true,
+        "server_name": "aa.txtxt.us.kg",
         "insecure": true
       },
       "tcp_fast_open": false
@@ -471,12 +413,12 @@
     {
       "type": "hysteria2",
       "tag": "UN_10",
-      "server": "us.vvcloud.us.kg",
-      "server_port": 20965,
-      "password": "432be2d3-c065-4e96-bf09-b3e6734340a1",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61619,
+      "password": "afb11314-5860-42c9-9068-b8f0c426063a",
       "tls": {
         "enabled": true,
-        "server_name": "us.vvcloud.us.kg",
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
         "insecure": true
       },
       "tcp_fast_open": false
@@ -484,34 +426,8 @@
     {
       "type": "hysteria2",
       "tag": "UN_11",
-      "server": "jp.vvcloud.us.kg",
-      "server_port": 20911,
-      "password": "61acab04-8669-46a5-8235-e0c4836b7cc4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp.vvcloud.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_13",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61371,
-      "password": "1b0f3f67-fd27-42b4-bff6-a54dab6a99e5",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_14",
-      "server": "cucc.abyssvpn.com",
-      "server_port": 31101,
+      "server": "cmcc.abyssvpn.com",
+      "server_port": 31153,
       "password": "bcc63e3b-ef7c-445a-ad95-57b1853f81ab",
       "tls": {
         "enabled": true,
@@ -521,508 +437,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_16",
-      "server": "hk.tuanzi.xyz",
-      "server_port": 20701,
-      "password": "50b36031-f27a-4af3-a8e4-ebf6dc7b78d1",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_17",
-      "server": "194.87.68.196",
-      "server_port": 28153,
-      "password": "43dcf486-e31c-47ce-99d0-3bf3b02452a8",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "MzliZDM5MDFhYmFlNTAyMA=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_19",
-      "server": "kaikaixinxin-us.legeth.xyz",
-      "server_port": 61648,
-      "password": "afb11314-5860-42c9-9068-b8f0c426063a",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-us.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_20",
-      "server": "cucc.abyssvpn.com",
-      "server_port": 31106,
-      "password": "23ea3bbd-c088-4324-81c3-1a1653758b7b",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_22",
-      "server": "us.vvcloud.us.kg",
-      "server_port": 20917,
-      "password": "61acab04-8669-46a5-8235-e0c4836b7cc4",
-      "tls": {
-        "enabled": true,
-        "server_name": "us.vvcloud.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_25",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61518,
-      "password": "04457c1f-252f-4389-acbe-f4854064c155",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_26",
-      "server": "kaikaixinxin-us.legeth.xyz",
-      "server_port": 61654,
-      "password": "1b0f3f67-fd27-42b4-bff6-a54dab6a99e5",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-us.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_27",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61302,
-      "password": "04457c1f-252f-4389-acbe-f4854064c155",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_28",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61796,
-      "password": "04457c1f-252f-4389-acbe-f4854064c155",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_30",
+      "tag": "UN_12",
       "server": "cmcc.abyssvpn.com",
-      "server_port": 31111,
-      "password": "05a79a3c-7ef5-4bc3-99a6-38583669e976",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_31",
-      "server": "166.88.182.77",
-      "server_port": 28153,
-      "password": "3e0f68d0-c848-4960-b847-609a5902925f",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "MzU2MTQ1ZGUyYmNjNWEyOA=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_32",
-      "server": "194.87.68.228",
-      "server_port": 28153,
-      "password": "76f65081-6795-4035-ba05-9d592d38560b",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_33",
-      "server": "cmcc.abyssvpn.com",
-      "server_port": 31101,
-      "password": "5339eeb6-b57e-4236-be2e-43deb3eccfdf",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_34",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61754,
-      "password": "1b0f3f67-fd27-42b4-bff6-a54dab6a99e5",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_36",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61446,
-      "password": "02e30e3f-d638-4714-8070-b844f297e45d",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_37",
-      "server": "hk.1010520.xyz",
-      "server_port": 1001,
-      "password": "d5905353-0efe-47a0-90e8-276991af4c87",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.1010520.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_38",
-      "server": "hk.vvcloud.us.kg",
-      "server_port": 20918,
-      "password": "6fa71c2a-fb8d-46ad-a143-8f4ac771ce02",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.vvcloud.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_39",
-      "server": "hk.vvcloud.us.kg",
-      "server_port": 20928,
-      "password": "61acab04-8669-46a5-8235-e0c4836b7cc4",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.vvcloud.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_40",
-      "server": "166.88.182.77",
-      "server_port": 28153,
-      "password": "0a6058ff-1e5e-47cf-893f-b5dc650736c2",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "MzU2MTQ1ZGUyYmNjNWEyOA=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_41",
-      "server": "46.17.41.189",
-      "server_port": 50717,
-      "password": "dongtaiwang.com",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_43",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61117,
-      "password": "1b0f3f67-fd27-42b4-bff6-a54dab6a99e5",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_44",
-      "server": "5.39.252.204",
-      "server_port": 3942,
-      "password": "189c5624-6c4b-4814-94c2-cdaaffa86700",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "M2UyNTc5OWUwYjkyM2Q2OQ=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_45",
-      "server": "us.vvcloud.us.kg",
-      "server_port": 20934,
-      "password": "61acab04-8669-46a5-8235-e0c4836b7cc4",
-      "tls": {
-        "enabled": true,
-        "server_name": "us.vvcloud.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_48",
-      "server": "in.1010520.xyz",
-      "server_port": 1001,
-      "password": "e1c77eb5-eacd-4afd-8da3-9fd2c1d3b499",
-      "tls": {
-        "enabled": true,
-        "server_name": "in.1010520.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_49",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61653,
-      "password": "1b0f3f67-fd27-42b4-bff6-a54dab6a99e5",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_50",
-      "server": "bgp.abyssvpn.com",
-      "server_port": 31106,
-      "password": "a98f43db-d6e9-4907-b8f1-3622800c97a6",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_52",
-      "server": "au.1010520.xyz",
-      "server_port": 29952,
-      "password": "6dab4571-cf66-47a5-a350-bb76c72e5aa6",
-      "tls": {
-        "enabled": true,
-        "server_name": "au.1010520.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_54",
-      "server": "cucc.abyssvpn.com",
-      "server_port": 31152,
-      "password": "bcc63e3b-ef7c-445a-ad95-57b1853f81ab",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_55",
-      "server": "bgp.abyssvpn.com",
-      "server_port": 31128,
-      "password": "a98f43db-d6e9-4907-b8f1-3622800c97a6",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_57",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61794,
-      "password": "02e30e3f-d638-4714-8070-b844f297e45d",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_58",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61587,
-      "password": "127853d2-89f4-42c8-bf9f-1389400d43ea",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_59",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61494,
-      "password": "1b0f3f67-fd27-42b4-bff6-a54dab6a99e5",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_6",
-      "server": "cz.1010520.xyz",
-      "server_port": 1002,
-      "password": "6dab4571-cf66-47a5-a350-bb76c72e5aa6",
-      "tls": {
-        "enabled": true,
-        "server_name": "cz.1010520.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_60",
-      "server": "cmcc.abyssvpn.com",
-      "server_port": 31106,
-      "password": "05a79a3c-7ef5-4bc3-99a6-38583669e976",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_61",
-      "server": "cucc.abyssvpn.com",
-      "server_port": 31120,
-      "password": "05a79a3c-7ef5-4bc3-99a6-38583669e976",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_63",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61410,
-      "password": "04457c1f-252f-4389-acbe-f4854064c155",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_65",
-      "server": "hk.vvcloud.us.kg",
-      "server_port": 20952,
-      "password": "6fa71c2a-fb8d-46ad-a143-8f4ac771ce02",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.vvcloud.us.kg",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_66",
-      "server": "cmcc.abyssvpn.com",
-      "server_port": 31101,
-      "password": "2d1639da-9a12-4185-b702-2eb1bf9e22f7",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_67",
-      "server": "cucc.abyssvpn.com",
-      "server_port": 31200,
+      "server_port": 31158,
       "password": "956f1c7e-1159-4797-8936-8aa94232d0c9",
       "tls": {
         "enabled": true,
@@ -1032,10 +449,85 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_68",
+      "tag": "UN_13",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61627,
+      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_15",
+      "server": "cucc.abyssvpn.com",
+      "server_port": 31113,
+      "password": "23ea3bbd-c088-4324-81c3-1a1653758b7b",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_16",
+      "server": "cucc.abyssvpn.com",
+      "server_port": 31200,
+      "password": "137a31c1-45e3-478f-ab46-b0604dc62fad",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_17",
+      "server": "no.1010520.xyz",
+      "server_port": 1002,
+      "password": "6dab4571-cf66-47a5-a350-bb76c72e5aa6",
+      "tls": {
+        "enabled": true,
+        "server_name": "no.1010520.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_18",
+      "server": "bg.1010520.xyz",
+      "server_port": 1001,
+      "password": "f5136746-de79-46d0-b3be-d15d9992fa07",
+      "tls": {
+        "enabled": true,
+        "server_name": "bg.1010520.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_19",
+      "server": "cmcc.abyssvpn.com",
+      "server_port": 31124,
+      "password": "87ef8853-807c-401b-b727-26ea938d5d4a",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_2",
       "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61655,
-      "password": "afb11314-5860-42c9-9068-b8f0c426063a",
+      "server_port": 61111,
+      "password": "127853d2-89f4-42c8-bf9f-1389400d43ea",
       "tls": {
         "enabled": true,
         "server_name": "kaikaixinxin-ca.legeth.xyz",
@@ -1045,41 +537,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_69",
-      "server": "195.58.49.42",
-      "server_port": 28153,
-      "password": "be33b883-37e7-4381-98bc-f83c779a4c27",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_71",
-      "server": "195.58.49.42",
-      "server_port": 28153,
-      "password": "43dcf486-e31c-47ce-99d0-3bf3b02452a8",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_72",
+      "tag": "UN_20",
       "server": "hk.vvcloud.us.kg",
-      "server_port": 20937,
+      "server_port": 20996,
       "password": "432be2d3-c065-4e96-bf09-b3e6734340a1",
       "tls": {
         "enabled": true,
@@ -1090,37 +550,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_73",
-      "server": "194.87.69.42",
-      "server_port": 28153,
-      "password": "3b22e740-80ea-4bdd-8f83-3a9a02158be6",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "MzliZDM5MDFhYmFlNTAyMA=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_74",
-      "server": "bgp.abyssvpn.com",
-      "server_port": 31155,
-      "password": "5339eeb6-b57e-4236-be2e-43deb3eccfdf",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_77",
+      "tag": "UN_21",
       "server": "hk.vvcloud.us.kg",
-      "server_port": 20907,
+      "server_port": 20970,
       "password": "29b17060-f16a-459c-85d7-dee4cdde89f0",
       "tls": {
         "enabled": true,
@@ -1131,23 +563,10 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_78",
-      "server": "kaikaixinxin-us.legeth.xyz",
-      "server_port": 61655,
-      "password": "afb11314-5860-42c9-9068-b8f0c426063a",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-us.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_79",
+      "tag": "UN_22",
       "server": "cmcc.abyssvpn.com",
-      "server_port": 31121,
-      "password": "95ba20c7-e667-4fe6-923a-7682c0dbc5da",
+      "server_port": 31128,
+      "password": "87ef8853-807c-401b-b727-26ea938d5d4a",
       "tls": {
         "enabled": true,
         "insecure": true
@@ -1156,152 +575,10 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_8",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61333,
-      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_80",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61760,
-      "password": "afb11314-5860-42c9-9068-b8f0c426063a",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_81",
-      "server": "uk.1010520.xyz",
-      "server_port": 1002,
-      "password": "6dab4571-cf66-47a5-a350-bb76c72e5aa6",
-      "tls": {
-        "enabled": true,
-        "server_name": "uk.1010520.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_82",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61320,
-      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_84",
-      "server": "bgp.abyssvpn.com",
-      "server_port": 31107,
-      "password": "95ba20c7-e667-4fe6-923a-7682c0dbc5da",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_85",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61437,
-      "password": "04457c1f-252f-4389-acbe-f4854064c155",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_87",
-      "server": "cucc.abyssvpn.com",
-      "server_port": 31101,
-      "password": "b94c9c8c-f1a2-4952-8f96-84fee6201830",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_88",
-      "server": "bgp.abyssvpn.com",
-      "server_port": 31154,
-      "password": "2f6d5ea6-4410-4f6e-bd66-7febf73d2ba7",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_89",
-      "server": "cucc.abyssvpn.com",
-      "server_port": 31111,
-      "password": "137a31c1-45e3-478f-ab46-b0604dc62fad",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_9",
-      "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61099,
-      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
-      "tls": {
-        "enabled": true,
-        "server_name": "kaikaixinxin-ca.legeth.xyz",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_90",
-      "server": "194.87.69.244",
+      "tag": "UN_23",
+      "server": "46.29.161.15",
       "server_port": 28153,
-      "password": "90dbf5cc-d547-4461-ac4e-80776dcb3532",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "hysteria2",
-      "tag": "UN_92",
-      "server": "176.32.33.124",
-      "server_port": 28153,
-      "password": "7c32eefd-00f1-4961-96aa-f522a724a396",
+      "password": "5504d4f7-e25c-4946-b507-8b2a07418f81",
       "tls": {
         "enabled": true,
         "insecure": true
@@ -1314,9 +591,313 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_93",
+      "tag": "UN_24",
+      "server": "cmcc.abyssvpn.com",
+      "server_port": 31112,
+      "password": "137a31c1-45e3-478f-ab46-b0604dc62fad",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_26",
+      "server": "212.192.12.70",
+      "server_port": 32902,
+      "password": "4aa5b939-ab55-47e5-9345-27d13c9b0b11",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "YzcwOTNlODc4NDIzMWMyMg=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_27",
+      "server": "jp.vvcloud.us.kg",
+      "server_port": 20995,
+      "password": "432be2d3-c065-4e96-bf09-b3e6734340a1",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp.vvcloud.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_3",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61263,
+      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_30",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61831,
+      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_32",
+      "server": "194.87.69.42",
+      "server_port": 28153,
+      "password": "76eebee0-4fd3-4eb5-872b-da4cac98f28e",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "MzliZDM5MDFhYmFlNTAyMA=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_33",
+      "server": "cmcc.abyssvpn.com",
+      "server_port": 31200,
+      "password": "2f6d5ea6-4410-4f6e-bd66-7febf73d2ba7",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_36",
+      "server": "195.58.49.173",
+      "server_port": 28153,
+      "password": "58c994c7-1231-48c2-af47-56bcf0db0913",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "MzliZDM5MDFhYmFlNTAyMA=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_37",
+      "server": "212.192.15.239",
+      "server_port": 37676,
+      "password": "c7f434ef-6ba7-45b0-b837-1a8fe14753e4",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "Y2JhZTU3ZjE4ZTI0MzRmMQ=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_39",
+      "server": "212.192.15.239",
+      "server_port": 37676,
+      "password": "98f9931c-9aa1-41d3-bbb0-a3eac28fe5e0",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "Y2JhZTU3ZjE4ZTI0MzRmMQ=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_40",
       "server": "kaikaixinxin-ca.legeth.xyz",
-      "server_port": 61574,
+      "server_port": 61429,
+      "password": "1b0f3f67-fd27-42b4-bff6-a54dab6a99e5",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_41",
+      "server": "5.39.252.204",
+      "server_port": 3942,
+      "password": "13b5d467-d9e5-4ac8-86d3-a320e4bd08b7",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "M2UyNTc5OWUwYjkyM2Q2OQ=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_43",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61623,
+      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_44",
+      "server": "hr.1010520.xyz",
+      "server_port": 1001,
+      "password": "d5905353-0efe-47a0-90e8-276991af4c87",
+      "tls": {
+        "enabled": true,
+        "server_name": "hr.1010520.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_45",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61782,
+      "password": "127853d2-89f4-42c8-bf9f-1389400d43ea",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_46",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61455,
+      "password": "e442664a-ff50-4457-ab27-66a34055934a",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_48",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61339,
+      "password": "127853d2-89f4-42c8-bf9f-1389400d43ea",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_49",
+      "server": "212.192.12.70",
+      "server_port": 32902,
+      "password": "90f96d9c-e3a2-49c0-b537-33e5095937d8",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "YzcwOTNlODc4NDIzMWMyMg=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_5",
+      "server": "cucc.abyssvpn.com",
+      "server_port": 31153,
+      "password": "2f6d5ea6-4410-4f6e-bd66-7febf73d2ba7",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_51",
+      "server": "us.vvcloud.us.kg",
+      "server_port": 20926,
+      "password": "432be2d3-c065-4e96-bf09-b3e6734340a1",
+      "tls": {
+        "enabled": true,
+        "server_name": "us.vvcloud.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_52",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61099,
+      "password": "02e30e3f-d638-4714-8070-b844f297e45d",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_53",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61425,
+      "password": "04457c1f-252f-4389-acbe-f4854064c155",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_54",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61406,
       "password": "04457c1f-252f-4389-acbe-f4854064c155",
       "tls": {
         "enabled": true,
@@ -1327,33 +908,270 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_95",
-      "server": "bgp.abyssvpn.com",
-      "server_port": 31117,
-      "password": "2d1639da-9a12-4185-b702-2eb1bf9e22f7",
+      "tag": "UN_58",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61196,
+      "password": "127853d2-89f4-42c8-bf9f-1389400d43ea",
       "tls": {
         "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
         "insecure": true
       },
       "tcp_fast_open": false
     },
     {
       "type": "hysteria2",
-      "tag": "UN_96",
-      "server": "cucc.abyssvpn.com",
-      "server_port": 31124,
-      "password": "b94c9c8c-f1a2-4952-8f96-84fee6201830",
+      "tag": "UN_59",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61254,
+      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
       "tls": {
         "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
         "insecure": true
       },
       "tcp_fast_open": false
     },
     {
       "type": "hysteria2",
-      "tag": "UN_97",
+      "tag": "UN_6",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61587,
+      "password": "127853d2-89f4-42c8-bf9f-1389400d43ea",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_60",
+      "server": "us.vvcloud.us.kg",
+      "server_port": 20946,
+      "password": "6fa71c2a-fb8d-46ad-a143-8f4ac771ce02",
+      "tls": {
+        "enabled": true,
+        "server_name": "us.vvcloud.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_62",
+      "server": "5.39.252.204",
+      "server_port": 3942,
+      "password": "58c994c7-1231-48c2-af47-56bcf0db0913",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "M2UyNTc5OWUwYjkyM2Q2OQ=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_63",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61169,
+      "password": "02e30e3f-d638-4714-8070-b844f297e45d",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_64",
       "server": "hk.vvcloud.us.kg",
-      "server_port": 20918,
+      "server_port": 20961,
+      "password": "61acab04-8669-46a5-8235-e0c4836b7cc4",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.vvcloud.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_65",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61963,
+      "password": "04457c1f-252f-4389-acbe-f4854064c155",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_66",
+      "server": "194.87.68.228",
+      "server_port": 28153,
+      "password": "bd780d21-ba78-4792-a90f-ce72d1ae04f1",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_68",
+      "server": "cmcc.abyssvpn.com",
+      "server_port": 31159,
+      "password": "137a31c1-45e3-478f-ab46-b0604dc62fad",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_69",
+      "server": "sg.vvcloud.us.kg",
+      "server_port": 20912,
+      "password": "432be2d3-c065-4e96-bf09-b3e6734340a1",
+      "tls": {
+        "enabled": true,
+        "server_name": "sg.vvcloud.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_70",
+      "server": "de.1010520.xyz",
+      "server_port": 1002,
+      "password": "d5905353-0efe-47a0-90e8-276991af4c87",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.1010520.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_71",
+      "server": "no.1010520.xyz",
+      "server_port": 1001,
+      "password": "f5136746-de79-46d0-b3be-d15d9992fa07",
+      "tls": {
+        "enabled": true,
+        "server_name": "no.1010520.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_73",
+      "server": "212.192.12.70",
+      "server_port": 32902,
+      "password": "189c5624-6c4b-4814-94c2-cdaaffa86700",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "YzcwOTNlODc4NDIzMWMyMg=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_74",
+      "server": "195.58.49.50",
+      "server_port": 28153,
+      "password": "b683b0bb-e2bf-42eb-83eb-d3c187e6d71a",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_75",
+      "server": "46.29.161.15",
+      "server_port": 28153,
+      "password": "868cb249-acc6-405d-9352-994300be324b",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "NWFiMGE5MDNlNmI5YWY1MA=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_76",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61709,
+      "password": "04457c1f-252f-4389-acbe-f4854064c155",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_77",
+      "server": "us.vvcloud.us.kg",
+      "server_port": 20963,
+      "password": "61acab04-8669-46a5-8235-e0c4836b7cc4",
+      "tls": {
+        "enabled": true,
+        "server_name": "us.vvcloud.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_78",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61041,
+      "password": "02e30e3f-d638-4714-8070-b844f297e45d",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_80",
+      "server": "hk.vvcloud.us.kg",
+      "server_port": 20952,
       "password": "432be2d3-c065-4e96-bf09-b3e6734340a1",
       "tls": {
         "enabled": true,
@@ -1364,9 +1182,102 @@
     },
     {
       "type": "hysteria2",
-      "tag": "UN_99",
+      "tag": "UN_81",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61413,
+      "password": "04457c1f-252f-4389-acbe-f4854064c155",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_84",
+      "server": "194.87.69.52",
+      "server_port": 28153,
+      "password": "798f6780-cb6b-481f-9fde-b63b5f0cfd5a",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "NDhhNmY5YTY0MGYzOTgxYQ=="
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_87",
+      "server": "cucc.abyssvpn.com",
+      "server_port": 31106,
+      "password": "2f6d5ea6-4410-4f6e-bd66-7febf73d2ba7",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_88",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61993,
+      "password": "02e30e3f-d638-4714-8070-b844f297e45d",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_89",
       "server": "kaikaixinxin-us.legeth.xyz",
-      "server_port": 61063,
+      "server_port": 61598,
+      "password": "02e30e3f-d638-4714-8070-b844f297e45d",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_91",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61333,
+      "password": "cb65af30-0f81-403e-99d6-582d9cc6c91e",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_92",
+      "server": "kaikaixinxin-ca.legeth.xyz",
+      "server_port": 61285,
+      "password": "afb11314-5860-42c9-9068-b8f0c426063a",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-ca.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_94",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61969,
       "password": "04457c1f-252f-4389-acbe-f4854064c155",
       "tls": {
         "enabled": true,
@@ -1376,8 +1287,106 @@
       "tcp_fast_open": false
     },
     {
+      "type": "hysteria2",
+      "tag": "UN_96",
+      "server": "cucc.abyssvpn.com",
+      "server_port": 31111,
+      "password": "a98f43db-d6e9-4907-b8f1-3622800c97a6",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_97",
+      "server": "kaikaixinxin-us.legeth.xyz",
+      "server_port": 61216,
+      "password": "afb11314-5860-42c9-9068-b8f0c426063a",
+      "tls": {
+        "enabled": true,
+        "server_name": "kaikaixinxin-us.legeth.xyz",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "hysteria2",
+      "tag": "UN_98",
+      "server": "lu.vvcloud.us.kg",
+      "server_port": 20989,
+      "password": "61acab04-8669-46a5-8235-e0c4836b7cc4",
+      "tls": {
+        "enabled": true,
+        "server_name": "lu.vvcloud.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
       "type": "vless",
-      "tag": "US_2",
+      "tag": "US_29",
+      "server": "194.76.18.10",
+      "server_port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+      "transport": {
+        "path": "/?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "dsa.ylks.us.kg"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "dsa.ylks.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "US_35",
+      "server": "202.37.33.81",
+      "server_port": 443,
+      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
+      "transport": {
+        "path": "/?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "uxb.vs2024.us.kg"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "uxb.vs2024.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "US_38",
+      "server": "206.238.237.151",
+      "server_port": 443,
+      "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
+      "transport": {
+        "path": "/?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "uxb.vs2024.us.kg"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "uxb.vs2024.us.kg",
+        "insecure": true
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "US_42",
       "server": "104.20.19.0",
       "server_port": 443,
       "uuid": "9b0faee3-b5d1-4fb0-9130-41b4eda3a896",
@@ -1396,64 +1405,66 @@
       "tcp_fast_open": false
     },
     {
-      "type": "trojan",
-      "tag": "US_24",
-      "server": "104.21.61.73",
-      "server_port": 443,
-      "password": "yaml777",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "yaml7.ggff.net"
-        }
-      },
+      "type": "vless",
+      "tag": "US_61",
+      "server": "154.40.37.165",
+      "server_port": 14443,
+      "uuid": "d43ca9a4-acb3-3c17-a759-e7ab698049bd",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yaml7.ggff.net",
-        "insecure": true
-      },
-      "tcp_fast_open": false
-    },
-    {
-      "type": "vless",
-      "tag": "US_42",
-      "server": "45.131.6.6",
-      "server_port": 8080,
-      "uuid": "dc580147-c87c-4527-bf90-192eb1cf62d1",
-      "packet_encoding": "xudp",
-      "transport": {
-        "path": "Telegram🇨🇳 @WangCai_8 /",
-        "type": "ws",
-        "headers": {
-          "Host": "stArt.siTEG52770.WorKeRS.deV"
+        "server_name": "www.amazon.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oFXphxwdjztp0BbyrFlt8wIRGwtHYQ0RcVLm90A5kXA",
+          "short_id": "0123456789abcdef"
         }
       },
       "tcp_fast_open": false
     },
     {
       "type": "vless",
-      "tag": "US_51",
-      "server": "172.67.140.149",
+      "tag": "US_7",
+      "server": "172.67.218.90",
+      "server_port": 80,
+      "uuid": "65b3cbba-e6ac-485a-9481-976a0415eab9",
+      "transport": {
+        "path": "/Fvy0Y7NJ7uucUDha?ed=2560",
+        "type": "ws",
+        "headers": {
+          "Host": "bLue-sNoW-a243.GeleNE5962.wOrKeRS.dEV"
+        }
+      },
+      "tcp_fast_open": false
+    },
+    {
+      "type": "vless",
+      "tag": "US_8",
+      "server": "172.67.133.177",
       "server_port": 8880,
-      "uuid": "3e2be9f4-363f-419d-a23a-28e171c6bc54",
+      "uuid": "33f8c4f4-2515-4798-9ea0-15f2030ef4d8",
       "transport": {
-        "path": "/?ed=2048",
+        "path": "/",
         "type": "ws",
         "headers": {
-          "Host": "telegram-falcunargo.31186fb105.workers.Dev"
+          "Host": "bia-zod-falcunargo.545c437f13.workers.Dev"
         }
       },
       "tcp_fast_open": false
     },
     {
       "type": "vless",
-      "tag": "US_56",
-      "server": "129.80.222.224",
+      "tag": "US_82",
+      "server": "160.79.105.12",
       "server_port": 443,
       "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "transport": {
-        "path": "/?ed=2560&proxyip=129.80.222.224:443",
+        "path": "/?ed=2560",
         "type": "ws",
         "headers": {
           "Host": "dsa.ylks.us.kg"
@@ -1467,32 +1478,29 @@
       "tcp_fast_open": false
     },
     {
-      "type": "vmess",
-      "tag": "US_7",
-      "server": "172.111.36.108",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "vless",
+      "tag": "US_83",
+      "server": "45.131.4.4",
+      "server_port": 8080,
+      "uuid": "f47fb03f-7f15-41e0-bd7e-2371dc710e32",
+      "packet_encoding": "xudp",
       "transport": {
+        "path": "/",
         "type": "ws",
-        "path": "/linkvws",
-        "headers": {}
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true
+        "headers": {
+          "Host": "c00021he.ab7db0ab17.workers.dev"
+        }
       },
       "tcp_fast_open": false
     },
     {
       "type": "vless",
-      "tag": "US_75",
-      "server": "141.145.205.115",
-      "server_port": 8443,
+      "tag": "US_86",
+      "server": "185.16.110.91",
+      "server_port": 443,
       "uuid": "55520747-311e-4015-83ce-be46e2060ce3",
       "transport": {
-        "path": "/?ed=2560",
+        "path": "/?ed=2560&proxyip=185.16.110.91:443",
         "type": "ws",
         "headers": {
           "Host": "uxb.vs2024.us.kg"
@@ -1507,30 +1515,35 @@
     },
     {
       "type": "vless",
-      "tag": "US_76",
-      "server": "172.64.155.187",
-      "server_port": 2095,
-      "uuid": "131387aa-4b2a-43aa-bf7c-d94306ba55fb",
+      "tag": "US_9",
+      "server": "160.123.255.20",
+      "server_port": 443,
+      "uuid": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
       "transport": {
         "path": "/?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "13tg.jpl8xmqb.workers.dev"
+          "Host": "dsa.ylks.us.kg"
         }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "dsa.ylks.us.kg",
+        "insecure": true
       },
       "tcp_fast_open": false
     },
     {
       "type": "vless",
-      "tag": "US_98",
-      "server": "188.114.98.45",
-      "server_port": 80,
-      "uuid": "f7ef59d8-e848-454d-8613-9e2f45ddd04f",
+      "tag": "US_93",
+      "server": "www.epicgames.com",
+      "server_port": 2095,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "transport": {
-        "path": "/",
+        "path": "/?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "uuttrr.607f1dbb99.workers.dev"
+          "Host": "fuckxijinping.fuckyourmom.workers.dev"
         }
       },
       "tcp_fast_open": false
@@ -1541,212 +1554,212 @@
       "outbounds": [
         "♻️ 自动选择",
         "🎯 全球直连",
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ]
     },
     {
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m"
@@ -1758,106 +1771,106 @@
         "🔰 节点选择",
         "♻️ 自动选择",
         "🎯 全球直连",
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ]
     },
     {
@@ -1885,106 +1898,106 @@
         "🔰 节点选择",
         "♻️ 自动选择",
         "🎯 全球直连",
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ]
     },
     {
@@ -2001,106 +2014,106 @@
       "outbounds": [
         "🎯 全球直连",
         "🔰 节点选择",
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ]
     },
     {
@@ -2109,106 +2122,106 @@
       "outbounds": [
         "🔰 节点选择",
         "🎯 全球直连",
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ]
     },
     {
@@ -2218,106 +2231,106 @@
         "🔰 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ]
     },
     {
@@ -2342,106 +2355,106 @@
         "🔰 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ]
     },
     {
@@ -2449,106 +2462,106 @@
       "tag": "GLOBAL",
       "outbounds": [
         "DIRECT",
-        "AT_86",
-        "CA_3",
-        "CH_83",
-        "DE_15",
-        "DE_4",
-        "DE_46",
-        "DE_62",
-        "DE_91",
-        "FR_12",
-        "FR_23",
-        "FR_5",
-        "FR_53",
-        "JP_47",
-        "JP_94",
-        "KR_18",
-        "KR_21",
-        "SG_29",
-        "SG_35",
-        "SG_70",
-        "TR_64",
-        "UN_0",
-        "UN_1",
+        "AE_56",
+        "AU_95",
+        "DE_90",
+        "DE_99",
+        "FR_1",
+        "GB_25",
+        "GB_72",
+        "HK_0",
+        "HK_31",
+        "HK_34",
+        "HK_50",
+        "JP_14",
+        "JP_79",
+        "NL_67",
+        "SE_55",
+        "SE_57",
+        "SE_85",
+        "SG_28",
+        "SG_47",
+        "TW_4",
         "UN_10",
         "UN_11",
+        "UN_12",
         "UN_13",
-        "UN_14",
+        "UN_15",
         "UN_16",
         "UN_17",
+        "UN_18",
         "UN_19",
+        "UN_2",
         "UN_20",
+        "UN_21",
         "UN_22",
-        "UN_25",
+        "UN_23",
+        "UN_24",
         "UN_26",
         "UN_27",
-        "UN_28",
+        "UN_3",
         "UN_30",
-        "UN_31",
         "UN_32",
         "UN_33",
-        "UN_34",
         "UN_36",
         "UN_37",
-        "UN_38",
         "UN_39",
         "UN_40",
         "UN_41",
         "UN_43",
         "UN_44",
         "UN_45",
+        "UN_46",
         "UN_48",
         "UN_49",
-        "UN_50",
+        "UN_5",
+        "UN_51",
         "UN_52",
+        "UN_53",
         "UN_54",
-        "UN_55",
-        "UN_57",
         "UN_58",
         "UN_59",
         "UN_6",
         "UN_60",
-        "UN_61",
+        "UN_62",
         "UN_63",
+        "UN_64",
         "UN_65",
         "UN_66",
-        "UN_67",
         "UN_68",
         "UN_69",
+        "UN_70",
         "UN_71",
-        "UN_72",
         "UN_73",
         "UN_74",
+        "UN_75",
+        "UN_76",
         "UN_77",
         "UN_78",
-        "UN_79",
-        "UN_8",
         "UN_80",
         "UN_81",
-        "UN_82",
         "UN_84",
-        "UN_85",
         "UN_87",
         "UN_88",
         "UN_89",
-        "UN_9",
-        "UN_90",
+        "UN_91",
         "UN_92",
-        "UN_93",
-        "UN_95",
+        "UN_94",
         "UN_96",
         "UN_97",
-        "UN_99",
-        "US_2",
-        "US_24",
+        "UN_98",
+        "US_29",
+        "US_35",
+        "US_38",
         "US_42",
-        "US_51",
-        "US_56",
+        "US_61",
         "US_7",
-        "US_75",
-        "US_76",
-        "US_98"
+        "US_8",
+        "US_82",
+        "US_83",
+        "US_86",
+        "US_9",
+        "US_93"
       ]
     }
   ],
