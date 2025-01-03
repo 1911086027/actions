@@ -26,7 +26,7 @@ jobs:
     - name: run pipeline
       run: |
         cd pwc
-        python pipieline_new.py
+        bash pipeline.sh
 
     - name: pull actions
       uses: actions/checkout@v4
@@ -57,28 +57,4 @@ jobs:
         git commit -m "$(date '+%Y.%m.%d %H:%M:%S') update"
         git push origin main
 
-    - name: pull toy
-      uses: actions/checkout@v4
-      with:
-        repository: Kdwkakcs/spider
-        token: ${{ secrets.upload }}
-        path: toy
-
-    - name: push to toy
-      run: |
-        cd toy
-        cp ../pwc/clash.yml ./Clash.yaml
-        cp ../pwc/singbox*.json ./
-
-        git config --local user.name "GitHub Actions"
-        git config --local user.email "actions@github.com"
-        if [[ `git status --porcelain` ]]; then
-          git pull origin main
-          git merge main
-          git add .
-          git commit -m "$(date '+%Y.%m.%d %H:%M:%S') update"
-          git push origin main
-        else
-          echo "No changes to commit"
-        fi
 
