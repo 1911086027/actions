@@ -25,5 +25,5 @@ jobs:
 
     - name: Run test
       run: |
-        cd pwc/utils/cn
+        cd pwc/
         bash pipeline_get.sh 

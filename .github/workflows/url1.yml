@@ -16,7 +16,7 @@ jobs:
     - name: git config
       run: git config --local user.name "GitHub Actions"; git config --local user.email "actions@github.com"
     
-    - name: pull pwc  
+    - name: pull pwc
       uses: actions/checkout@v4
       with:
         repository: kSLAWIASCA/collect
