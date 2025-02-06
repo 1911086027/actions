@@ -5,11 +5,11 @@
 
 订阅地址：
 ### Clash
-https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/Clash.yml
+原始地址：https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/Clash.yml
 
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/Clash.yml
+代理地址：https://gh-proxy.com/raw.githubusercontent.com/kSLAWIASCA/actions/main/Clash.yml
 
 ### Singbox
-https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/singbox.json
+原始地址：https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/singbox.json
 
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/singbox.json
+代理地址：https://gh-proxy.com/raw.githubusercontent.com/kSLAWIASCA/actions/refs/heads/main/singbox.json
